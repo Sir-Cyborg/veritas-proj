@@ -1,0 +1,6 @@
+5. Access Provisioning
+
+Access must be:
+- Granted according to approved request
+- Configured following standard profiles
+- Logged for audit purposes

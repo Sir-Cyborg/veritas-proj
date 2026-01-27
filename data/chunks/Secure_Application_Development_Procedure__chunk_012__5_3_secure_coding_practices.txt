@@ -1,0 +1,8 @@
+5.3 Secure Coding Practices
+Developers must:
+- Follow approved secure coding guidelines
+- Avoid hard-coded credentials
+- Validate all user inputs
+- Implement proper error handling and logging
+
+Use of insecure or deprecated libraries is prohibited.

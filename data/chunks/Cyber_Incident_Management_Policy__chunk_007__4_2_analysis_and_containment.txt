@@ -1,0 +1,2 @@
+4.2 Analysis and Containment
+The scope and root cause of the incident are assessed.

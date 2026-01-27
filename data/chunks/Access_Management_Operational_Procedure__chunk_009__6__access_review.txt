@@ -1,0 +1,6 @@
+6. Access Review
+
+Periodic access reviews must be performed to:
+- Validate continued business need
+- Identify excessive privileges
+- Remove obsolete access

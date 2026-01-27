@@ -1,0 +1,6 @@
+3. Scope
+
+This procedure applies to:
+- Employees
+- Contractors
+- Third-party users

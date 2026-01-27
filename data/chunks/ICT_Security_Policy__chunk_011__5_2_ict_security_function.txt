@@ -1,0 +1,2 @@
+5.2 ICT Security Function
+Defines security standards, monitors compliance, and manages incidents.

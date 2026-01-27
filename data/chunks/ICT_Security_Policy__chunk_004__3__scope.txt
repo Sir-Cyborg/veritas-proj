@@ -1,0 +1,6 @@
+3. Scope
+
+This policy applies to:
+- All employees, contractors, and third parties
+- All information systems and applications
+- All data classified as internal, confidential, or restricted

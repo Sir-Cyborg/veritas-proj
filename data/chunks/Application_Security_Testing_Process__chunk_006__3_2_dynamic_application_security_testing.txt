@@ -1,0 +1,2 @@
+3.2 Dynamic Application Security Testing (DAST)
+Testing of running applications to detect runtime vulnerabilities.

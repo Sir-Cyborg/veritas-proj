@@ -1,0 +1,6 @@
+2. Purpose
+
+The purpose of this procedure is to:
+- Minimize disruption to ICT services
+- Ensure changes are properly assessed and approved
+- Maintain traceability of changes

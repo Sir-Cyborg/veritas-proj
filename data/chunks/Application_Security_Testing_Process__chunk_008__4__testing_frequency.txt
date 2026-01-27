@@ -1,0 +1,6 @@
+4. Testing Frequency
+
+Security testing must be performed:
+- Before production deployment
+- After major changes
+- Periodically for critical applications

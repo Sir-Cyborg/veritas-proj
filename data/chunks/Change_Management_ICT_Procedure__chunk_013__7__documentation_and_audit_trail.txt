@@ -1,0 +1,3 @@
+7. Documentation and Audit Trail
+
+All change records must be retained for audit purposes.

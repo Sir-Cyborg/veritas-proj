@@ -1,0 +1,6 @@
+2. Objectives
+
+The objectives of the ICT Risk Management Framework are to:
+- Ensure a consistent risk assessment methodology
+- Support informed decision-making
+- Maintain ICT risks within the approved risk appetite

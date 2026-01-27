@@ -1,0 +1,8 @@
+1. Introduction
+
+Information and Communication Technology (ICT) systems represent a critical asset for
+Corporate Banking Group. This policy defines the principles and high-level rules governing
+the protection of information systems, digital assets, and data processed by the organization.
+
+The policy applies to all ICT environments, including on-premise infrastructure, cloud
+services, and third-party managed platforms.

@@ -1,0 +1,72 @@
+ACCESS MANAGEMENT OPERATIONAL PROCEDURE
+Corporate Banking Group
+
+
+1. Introduction
+
+This procedure defines operational steps for granting, modifying, and revoking
+access to ICT systems in accordance with access control policies.
+
+
+2. Purpose
+
+The purpose of this procedure is to:
+- Ensure access is granted based on least privilege
+- Prevent unauthorized access
+- Maintain traceability of access decisions
+
+
+3. Scope
+
+This procedure applies to:
+- Employees
+- Contractors
+- Third-party users
+
+
+4. Access Request Process
+
+4.1 Access Request Submission  
+Access requests must:
+- Be formally submitted
+- Specify required access level
+- Be justified by business need
+
+4.2 Approval  
+Access requests require approval from:
+- Line manager
+- System owner (for sensitive systems)
+
+
+5. Access Provisioning
+
+Access must be:
+- Granted according to approved request
+- Configured following standard profiles
+- Logged for audit purposes
+
+
+6. Access Review
+
+Periodic access reviews must be performed to:
+- Validate continued business need
+- Identify excessive privileges
+- Remove obsolete access
+
+
+7. Access Revocation
+
+Access must be revoked:
+- Upon termination
+- Upon role change
+- When access is no longer required
+
+
+8. Monitoring and Logging
+
+All access activities must be logged and monitored.
+
+
+9. Procedure Review
+
+This procedure is reviewed annually.

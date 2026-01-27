@@ -1,0 +1,3 @@
+6. Reporting
+
+Testing results are documented and shared with development and risk management teams.

@@ -1,0 +1,3 @@
+5.4 Code Review
+Peer code reviews must be performed for all security-relevant components.
+Security-related findings must be tracked and resolved before release.

@@ -1,0 +1,6 @@
+1. Introduction
+
+ICT risks are a subset of operational risks and may arise from inadequate systems,
+process failures, cyber threats, or external events.
+
+This framework defines how ICT risks are identified, assessed, mitigated, and monitored.

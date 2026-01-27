@@ -1,0 +1,4 @@
+1. Introduction
+
+Application security testing is a key control to identify vulnerabilities
+before applications are deployed into production.

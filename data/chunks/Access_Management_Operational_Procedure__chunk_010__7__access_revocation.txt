@@ -1,0 +1,6 @@
+7. Access Revocation
+
+Access must be revoked:
+- Upon termination
+- Upon role change
+- When access is no longer required

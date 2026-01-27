@@ -1,0 +1,65 @@
+ICT SECURITY POLICY
+Corporate Banking Group
+
+
+1. Introduction
+
+Information and Communication Technology (ICT) systems represent a critical asset for
+Corporate Banking Group. This policy defines the principles and high-level rules governing
+the protection of information systems, digital assets, and data processed by the organization.
+
+The policy applies to all ICT environments, including on-premise infrastructure, cloud
+services, and third-party managed platforms.
+
+
+2. Purpose
+
+The purpose of this document is to:
+- Ensure confidentiality, integrity, and availability of information assets
+- Reduce exposure to cyber risks
+- Align ICT security practices with regulatory and supervisory expectations
+- Establish a common security baseline across the organization
+
+
+3. Scope
+
+This policy applies to:
+- All employees, contractors, and third parties
+- All information systems and applications
+- All data classified as internal, confidential, or restricted
+
+
+4. Information Security Principles
+
+4.1 Confidentiality  
+Access to information must be granted strictly on a need-to-know basis.
+
+4.2 Integrity  
+Information must be protected against unauthorized modification or destruction.
+
+4.3 Availability  
+Systems and data must be available according to business continuity requirements.
+
+
+5. Roles and Responsibilities
+
+5.1 Board of Directors  
+Provides strategic oversight on ICT and cybersecurity risks.
+
+5.2 ICT Security Function  
+Defines security standards, monitors compliance, and manages incidents.
+
+5.3 System Owners  
+Ensure security controls are implemented and maintained for assigned systems.
+
+
+6. Policy Compliance
+
+Non-compliance with this policy may result in disciplinary actions and must be reported
+to the ICT Security Function.
+
+
+7. Review and Maintenance
+
+This policy is reviewed annually or upon significant changes in the threat landscape
+or regulatory requirements.

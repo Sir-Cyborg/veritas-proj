@@ -1,0 +1,76 @@
+ICT CHANGE MANAGEMENT PROCEDURE
+Corporate Banking Group
+
+
+1. Introduction
+
+Uncontrolled changes to ICT systems may introduce operational and security risks.
+This procedure defines the steps required to manage changes in a controlled manner.
+
+
+2. Purpose
+
+The purpose of this procedure is to:
+- Minimize disruption to ICT services
+- Ensure changes are properly assessed and approved
+- Maintain traceability of changes
+
+
+3. Scope
+
+This procedure applies to:
+- Infrastructure changes
+- Application changes
+- Security configuration changes
+
+
+4. Change Classification
+
+Changes are classified as:
+- Standard changes
+- Normal changes
+- Emergency changes
+
+
+5. Change Process
+
+5.1 Change Request Submission  
+All changes must be documented in a change request, including:
+- Description of the change
+- Systems impacted
+- Risk assessment
+- Rollback plan
+
+5.2 Change Assessment  
+The change must be reviewed for:
+- Technical feasibility
+- Security impact
+- Compliance with policies
+
+5.3 Approval  
+Changes require approval based on classification and risk level.
+
+
+5.4 Implementation  
+Approved changes must be implemented according to the approved plan.
+
+5.5 Post-Implementation Review  
+After implementation, the change outcome must be reviewed and documented.
+
+
+6. Emergency Changes
+
+Emergency changes must:
+- Be documented retrospectively
+- Be reviewed after implementation
+- Include justification for urgency
+
+
+7. Documentation and Audit Trail
+
+All change records must be retained for audit purposes.
+
+
+8. Procedure Review
+
+This procedure is reviewed annually.

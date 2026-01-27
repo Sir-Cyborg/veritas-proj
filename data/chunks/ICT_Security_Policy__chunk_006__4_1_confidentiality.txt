@@ -1,0 +1,2 @@
+4.1 Confidentiality
+Access to information must be granted strictly on a need-to-know basis.
