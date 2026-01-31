@@ -10,9 +10,9 @@ class Collector:
     def __init__(self):
         pass
 
-    def chroma_collection(self):
+    def chroma_collection(self, collection_name, model_name="all-MiniLM-L6-v2"):
         embedding_function = embedding_functions.SentenceTransformerEmbeddingFunction(
-        model_name="all-MiniLM-L6-v2"
+        model_name=model_name
         )
 
         client = chromadb.PersistentClient(
@@ -20,7 +20,7 @@ class Collector:
         )
 
         collection = client.get_or_create_collection(
-            name="policy_procedures",
+            name=collection_name,
             embedding_function=embedding_function
         )
         return collection
@@ -138,7 +138,7 @@ def main():
     args = parser.parse_args()
     
     collector=Collector()
-    collection = collector.chroma_collection()
+    collection = collector.chroma_collection(collection_name="policy_procedures")
 
     collector.load_chunks_to_collection(args.chunks_dir, collection)
     collector.verify_collection(collection)
