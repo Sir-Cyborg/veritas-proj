@@ -41,6 +41,7 @@ class Retriever:
 class Augmentor:
     def __init__(self, type):
         self.type = type
+        self.conversation_id = None
         self.setup()
 
 
@@ -51,6 +52,7 @@ class Augmentor:
             if not api_key:
                 raise RuntimeError("OPENAI_API not found")
             self.client = OpenAI(api_key=api_key)
+            self.conversation_id = self.client.conversations.create().id
             pass
         if self.type == "local":
             # setup local model client
@@ -63,7 +65,7 @@ class Augmentor:
                     Context: {context}
                     Question: {query}"""
         
-        response = self.client.responses.create(model="gpt-4o", input=prompt)
+        response = self.client.responses.create(model="gpt-4o", input=prompt, conversation=self.conversation_id, store=True)
         return response.output_text
 
 def chat():
