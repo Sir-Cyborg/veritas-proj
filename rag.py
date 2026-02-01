@@ -39,9 +39,10 @@ class Retriever:
         return context
     
 class Augmentor:
-    def __init__(self, type):
+    def __init__(self, type, role_prompt=None):
         self.type = type
         self.conversation_id = None
+        self.role_prompt = role_prompt or "You are a banking ICT and Security assistant."
         self.setup()
 
 
@@ -60,7 +61,7 @@ class Augmentor:
         
 
     def augment(self, question, context):
-        prompt = f"""You are a banking ICT and security assistant.
+        prompt = f"""{self.role_prompt}.
                     Answer using ONLY the context below.
                     Context: {context}
                     Question: {question}"""
@@ -76,23 +77,71 @@ class Augmentor:
                     Question: {question}"""
         query = self.client.responses.create(model="gpt-4o", input=prompt, conversation=self.conversation_id, store=True)
         return query.output_text
+    
+class Judger:
+    def __init__(self, client):
+        self.client = client
+
+    def judge(self, question, context, answers):
+        formatted_answers = "\n\n".join(
+        f"{name}:\n{answer}" for name, answer in answers
+    )
+        prompt = f"""You are a banking ICT and Security assistant.
+                    You are a senior banking ICT and security reviewer.
+
+                        Question:
+                        {question}
+
+                        Context:
+                        {context}
+
+                        Below are answers from multiple experts:
+                        {formatted_answers}
+
+                        Task:
+                        - Compare the answers
+                        - Resolve contradictions
+                        - Produce a single, accurate, well-justified final answer
+                        - Use ONLY the provided context"""
+        
+        response = self.client.responses.create(model="gpt-4o", input=prompt, store=True)
+        return response.output_text
+    
+def run_court(question, context, augmentors):
+    answers = []
+    for i, augmentor in enumerate(augmentors, start=1):
+        answer = augmentor.augment(question=question, context=context)
+        answers.append((f"Expert {i}", answer))
+    return answers
+
 
 def chat():
     retriever = Retriever()
-    augmentor = Augmentor(type="openai")
+
+    query_augmentor = Augmentor(type="openai")
+    augmentors = [
+        Augmentor(type="openai", role_prompt="You are a conservative banking compliance expert."),
+        Augmentor("openai", role_prompt="You are a pragmatic ICT operations engineer."),
+        Augmentor("openai", role_prompt="You are a critical security auditor.")
+    ]
+
+    judger = Judger(augmentors[0].client)
 
     while True:
         question = input("Enter your question (or 'exit' to quit): ")
         if question.lower() == 'exit':
             break
         
-        query = augmentor.augment_query(question)
+        query = query_augmentor.augment_query(question)
         context = retriever.retrieve(query=query)
-        answer = augmentor.augment(question=question, context=context)
 
+        answers = run_court(question=question, context=context, augmentors=augmentors)
+        verdict = judger.judge(question=question, context=context, answers=answers)
+
+        print("\nFinal Answer:\n", verdict)
         print("\nContext:\n", context)
+        print("\nAnswers:\n", answers)
 
-        print("\nAnswer:\n", answer)
         print("\n" + "="*50 + "\n")
     
 
