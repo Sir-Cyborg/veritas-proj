@@ -59,26 +59,38 @@ class Augmentor:
             pass
         
 
-    def augment(self, query, context):
+    def augment(self, question, context):
         prompt = f"""You are a banking ICT and security assistant.
                     Answer using ONLY the context below.
                     Context: {context}
-                    Question: {query}"""
+                    Question: {question}"""
         
         response = self.client.responses.create(model="gpt-4o", input=prompt, conversation=self.conversation_id, store=True)
         return response.output_text
+    
+    def augment_query(self, question):
+        """Augment the question asked to LMM to return query for retriever"""
+
+        prompt = f"""Given the question below, generate ONLY a concise search query 
+                    to find relevant information in a vector database.
+                    Question: {question}"""
+        query = self.client.responses.create(model="gpt-4o", input=prompt, conversation=self.conversation_id, store=True)
+        return query.output_text
 
 def chat():
     retriever = Retriever()
     augmentor = Augmentor(type="openai")
 
     while True:
-        query = input("Enter your question (or 'exit' to quit): ")
-        if query.lower() == 'exit':
+        question = input("Enter your question (or 'exit' to quit): ")
+        if question.lower() == 'exit':
             break
-
+        
+        query = augmentor.augment_query(question)
         context = retriever.retrieve(query=query)
-        answer = augmentor.augment(query=query, context=context)
+        answer = augmentor.augment(question=question, context=context)
+
+        print("\nContext:\n", context)
 
         print("\nAnswer:\n", answer)
         print("\n" + "="*50 + "\n")
