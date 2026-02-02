@@ -108,6 +108,7 @@ class Judger:
         return response.output_text
     
 def run_court(question, context, augmentors):
+    """Run multiple augmentors (ensamble) as experts to answer the question."""
     answers = []
     for i, augmentor in enumerate(augmentors, start=1):
         answer = augmentor.augment(question=question, context=context)
