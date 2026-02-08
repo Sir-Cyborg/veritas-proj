@@ -1,0 +1,12 @@
+2. Scope
+
+This policy applies to:
+
+- All data created, received, processed, stored, or transmitted by CBG in any format (digital, paper, voice).
+
+- All systems and repositories, including endpoints, file shares, email, collaboration platforms, databases, cloud services, and backups.
+
+- All third parties processing CBG data on CBG's behalf.
+
+It applies to both structured and unstructured data, including logs that may contain
+personal or sensitive information.

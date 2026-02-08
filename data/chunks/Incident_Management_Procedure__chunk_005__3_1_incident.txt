@@ -1,0 +1,2 @@
+3.1 Incident
+An unplanned interruption to an ICT service or a reduction in the quality of an ICT service. Failures of components not yet affecting service may also be classified as incidents if action is required to prevent impact.

@@ -1,0 +1,16 @@
+7. Key ICT Risk Domains and Minimum Controls
+
+CBG maintains a risk taxonomy that includes (at minimum) the following domains and expected
+controls:
+
+- Cybersecurity risk: identity controls, hardening, vulnerability management, monitoring, incident response.
+
+- Resilience and continuity risk: backup/recovery, disaster recovery testing, capacity management, high availability architecture.
+
+- Change and release risk: change governance, segregation of duties, testing, rollback plans, emergency change control.
+
+- Data risk: classification, retention, encryption, data loss prevention, integrity controls for transactional data.
+
+- Obsolescence risk: lifecycle management, upgrade planning, vendor supportability tracking.
+
+- Third-party risk: due diligence, contract controls, exit planning, concentration management.

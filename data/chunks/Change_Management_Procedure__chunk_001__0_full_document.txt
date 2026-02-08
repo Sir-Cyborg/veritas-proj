@@ -1,0 +1,13 @@
+CHANGE MANAGEMENT PROCEDURE
+Corporate Banking Group (CBG)
+IT Service Management Office (ITSM)
+
+Document Classification: Internal
+Owner: Head of Change & Release Management
+Approved by: CIO; Head of IT Service Management
+Effective Date: 2026-01-16
+Review Cycle: Annual
+Version: 1.0
+
+Document Control
+- 1.0 (2026-01-16): Initial release defining change categories, approvals, testing, and emergency changes.

@@ -1,0 +1,5 @@
+11. Records and Retention
+
+Access requests, approvals, provisioning logs, and access reviews must be retained according
+to retention policies. Privileged access logs and session recordings must be retained for
+the duration required by security monitoring and regulatory needs.

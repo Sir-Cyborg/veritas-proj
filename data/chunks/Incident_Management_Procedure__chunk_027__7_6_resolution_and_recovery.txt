@@ -1,0 +1,10 @@
+7.6 Resolution and Recovery
+1) Implement corrective actions (rollback, hotfix, configuration correction, vendor remediation).
+2) Validate service restoration:
+   - Technical validation (monitoring back to normal, errors reduced)
+   - Business validation (critical transactions confirmed by business/operations)
+3) Ensure backlog processing (e.g., queued payments) is handled safely.
+4) Monitor for a stabilization period appropriate to severity:
+   - P1: minimum 60 minutes post-restoration monitoring unless otherwise agreed
+   - P2: minimum 30 minutes
+   - P3/P4: as needed

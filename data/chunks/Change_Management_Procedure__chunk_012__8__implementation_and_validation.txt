@@ -1,0 +1,15 @@
+8. Implementation and Validation
+
+Implementation must follow the approved plan. During execution:
+
+1) Confirm prerequisite conditions and approvals.
+
+2) Notify stakeholders according to the communication plan.
+
+3) Execute steps with appropriate segregation of duties.
+
+4) Validate success using technical monitoring and business validation where appropriate.
+
+5) Monitor for stabilization after completion.
+
+Any deviations from the approved plan must be documented in the change record.

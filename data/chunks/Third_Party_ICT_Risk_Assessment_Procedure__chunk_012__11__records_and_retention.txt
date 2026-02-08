@@ -1,0 +1,5 @@
+11. Records and Retention
+
+Due diligence artifacts, risk assessments, contracts, and monitoring evidence must be
+retained for audit and regulatory review. Records must be linked to the third-party
+inventory entry and maintained for the required retention period.

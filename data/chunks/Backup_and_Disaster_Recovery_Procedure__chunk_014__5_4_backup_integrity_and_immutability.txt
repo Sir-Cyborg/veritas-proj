@@ -1,0 +1,5 @@
+5.4 Backup Integrity and Immutability
+
+Backups must be protected from tampering and ransomware. Where feasible, immutable or write-
+once storage must be used for critical datasets. Backup credentials must be protected using
+least privilege and monitored.

@@ -1,0 +1,13 @@
+8. Onboarding and Go-Live Controls
+
+Before go-live:
+
+1) Confirm completion of due diligence and risk acceptance for outstanding issues.
+
+2) Ensure security requirements are implemented (MFA, logging, encryption).
+
+3) Validate integration testing, including failure scenarios and recovery procedures.
+
+4) Register the supplier in the third-party inventory with ownership, classification, and review cadence.
+
+5) Establish operational contacts, escalation paths, and incident communication channels.

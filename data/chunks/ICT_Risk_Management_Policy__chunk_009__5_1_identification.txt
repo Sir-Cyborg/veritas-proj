@@ -1,0 +1,5 @@
+5.1 Identification
+
+Risks must be identified via multiple sources including architecture reviews, threat
+modeling, incident/problem trends, vulnerability findings, audit issues, supplier
+assessments, and business impact analyses.

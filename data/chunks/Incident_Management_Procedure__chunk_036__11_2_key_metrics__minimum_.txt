@@ -1,0 +1,9 @@
+11.2 Key Metrics (Minimum)
+- Mean Time to Acknowledge (MTTA)
+- Mean Time to Restore (MTTR)
+- Incident volume by service and category
+- Percentage of incidents resolved by L1
+- Recurrence rate (incidents linked to same problem)
+- Change-related incident rate (incidents within 24–72 hours of a deployment/change)
+
+Metrics must be reviewed monthly by ITSM governance and shared with service owners.

@@ -1,4 +1,0 @@
-1. Introduction
-
-This procedure defines operational steps for granting, modifying, and revoking
-access to ICT systems in accordance with access control policies.

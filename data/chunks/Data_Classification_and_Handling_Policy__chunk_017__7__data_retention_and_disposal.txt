@@ -1,0 +1,7 @@
+7. Data Retention and Disposal
+
+Retention periods must be defined by Data Owners in collaboration with Compliance/Legal and
+must reflect regulatory and business requirements. When retention expires, data must be
+disposed securely to prevent reconstruction. Disposal methods must be appropriate to media
+type (secure wipe for disks, cryptographic erase where supported, physical destruction where
+necessary). Backups must follow the same retention and disposal requirements.

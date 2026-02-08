@@ -1,0 +1,10 @@
+1. Introduction
+
+Corporate Banking Group (CBG) relies on third-party providers for software, cloud services,
+infrastructure hosting, development support, and specialized technology. Third-party
+relationships introduce risks including data leakage, service disruption, concentration
+risk, and reduced control over the technology environment.
+
+This procedure defines minimum requirements for assessing, onboarding, and monitoring third-
+party ICT providers, ensuring risks are identified and managed in line with CBG risk
+appetite and operational resilience objectives.

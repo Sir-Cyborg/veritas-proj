@@ -1,0 +1,4 @@
+3.2 Normal Change
+
+A change requiring assessment and approval by Change Advisory Board (CAB) or delegated
+approvers based on risk and impact.

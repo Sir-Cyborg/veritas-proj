@@ -1,2 +1,0 @@
-4.3 Project Manager
-Ensures that security activities are planned and tracked throughout the project lifecycle.

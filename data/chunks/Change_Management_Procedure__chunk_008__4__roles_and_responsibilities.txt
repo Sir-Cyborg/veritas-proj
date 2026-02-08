@@ -1,0 +1,13 @@
+4. Roles and Responsibilities
+
+- Change Requestor: prepares the change record with required detail and coordinates implementation.
+
+- Implementer: executes the change steps and validates outcomes.
+
+- Service Owner: accountable for business impact decisions and approves changes for their service.
+
+- CAB: reviews and approves normal changes based on risk/impact; ensures scheduling coordination.
+
+- Change Manager: governs the process, ensures record quality, and chairs CAB meetings.
+
+- Information Security/IAM: reviews changes that affect security controls or sensitive environments.

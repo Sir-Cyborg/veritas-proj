@@ -1,6 +1,0 @@
-4. Change Classification
-
-Changes are classified as:
-- Standard changes
-- Normal changes
-- Emergency changes

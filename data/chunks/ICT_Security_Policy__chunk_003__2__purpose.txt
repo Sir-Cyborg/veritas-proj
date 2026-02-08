@@ -1,7 +1,0 @@
-2. Purpose
-
-The purpose of this document is to:
-- Ensure confidentiality, integrity, and availability of information assets
-- Reduce exposure to cyber risks
-- Align ICT security practices with regulatory and supervisory expectations
-- Establish a common security baseline across the organization

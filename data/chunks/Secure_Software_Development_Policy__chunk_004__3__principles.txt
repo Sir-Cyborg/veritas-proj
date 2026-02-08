@@ -1,0 +1,13 @@
+3. Principles
+
+CBG follows these secure development principles:
+
+- Security by design: threat modeling and architectural risk controls are addressed early, not after deployment.
+
+- Least privilege and secure defaults: services run with minimal permissions; insecure configurations are prohibited.
+
+- Continuous verification: automated security checks are embedded in pipelines and required for release.
+
+- Dependency hygiene: third-party libraries are managed and updated based on risk.
+
+- Accountability: changes are attributable; approvals and evidence are retained.

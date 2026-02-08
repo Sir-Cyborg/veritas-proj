@@ -1,0 +1,15 @@
+5. Roles and Responsibilities
+
+Key roles include:
+
+- CISO: owns this policy, defines security strategy, and reports material security risks to executive management.
+
+- ICT Risk Management: maintains ICT risk taxonomy, performs risk assessments, and tracks remediation commitments.
+
+- System and Service Owners: accountable for security controls on their services, including remediation of findings.
+
+- Cybersecurity Operations Center (SOC): monitors for threats, performs investigations, and coordinates security incidents.
+
+- Identity and Access Management (IAM): operates access controls, privileged access, and authentication services.
+
+- All Users: must follow acceptable use rules, protect credentials, and report suspected incidents promptly.

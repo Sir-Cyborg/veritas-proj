@@ -1,0 +1,5 @@
+4.3 Confidential
+
+Sensitive information that could cause significant harm if disclosed, including customer
+data, internal financial information, security architecture details, and non-public business
+plans.

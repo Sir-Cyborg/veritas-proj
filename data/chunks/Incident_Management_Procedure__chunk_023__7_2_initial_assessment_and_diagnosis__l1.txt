@@ -1,0 +1,6 @@
+7.2 Initial Assessment and Diagnosis (L1)
+1) Confirm the incident is not a standard service request.
+2) Identify service affected, scope, and initial impact.
+3) Consult knowledge base and runbooks for known issues.
+4) Attempt safe first-line actions (e.g., restart user session, clear cache guidance, validate account status).
+5) If resolved, proceed to Section 8 (Closure). If not, escalate.

@@ -1,0 +1,190 @@
+BACKUP AND DISASTER RECOVERY PROCEDURE
+Corporate Banking Group (CBG)
+Infrastructure & Resilience
+
+Document Classification: Internal
+Owner: Head of Infrastructure Resilience
+Approved by: CIO; Chief Risk Officer (CRO)
+Effective Date: 2026-01-25
+Review Cycle: Annual
+Version: 1.0
+
+Document Control
+- 1.0 (2026-01-25): Initial release defining backup standards, recovery testing, and disaster recovery governance.
+
+1. Introduction
+
+Operational resilience is essential for Corporate Banking Group (CBG). Backup and Disaster
+Recovery (DR) capabilities enable the restoration of data and services after accidental
+deletion, corruption, ransomware events, infrastructure failures, or site-level outages.
+
+This procedure defines minimum requirements and steps for backup creation, validation,
+retention, recovery execution, and disaster recovery testing for ICT services. It ensures
+that recovery objectives are defined, achievable, and evidenced.
+
+2. Scope
+
+This procedure applies to:
+
+- Databases and data stores supporting banking applications.
+
+- File systems, object storage, and collaboration repositories storing business or technical data.
+
+- Virtual machines, containers, and platform services that require backup or configuration recovery.
+
+- Critical cloud resources and infrastructure-as-code state.
+
+It includes both production and critical non-production systems where required for service
+restoration.
+
+3. Definitions
+
+3.1 RTO (Recovery Time Objective): the targeted duration of time within which a service must
+be restored after a disruption.
+
+3.2 RPO (Recovery Point Objective): the maximum tolerable period in which data might be lost
+due to a disruption.
+
+3.3 Backup: a copy of data or system state used to restore after loss/corruption.
+
+3.4 Disaster Recovery: the set of capabilities to restore services after a major disruption
+affecting a primary site or critical infrastructure.
+
+4. Roles and Responsibilities
+
+- Service Owner: defines business requirements, including RTO/RPO; ensures DR plans exist and tests are executed.
+
+- Infrastructure Resilience Team: operates backup platforms, validates backups, and coordinates DR exercises.
+
+- Application Teams: ensure application-level backup consistency, participate in recovery tests, and validate business functionality after recovery.
+
+- Information Security: defines ransomware-resilient backup requirements and monitors control effectiveness.
+
+- ICT Risk Management: monitors resilience risks and tracks remediation actions for failed tests or gaps.
+
+5. Backup Policy Requirements (Operational)
+
+5.1 Backup Coverage
+
+All production systems must have a documented backup strategy aligned to RTO/RPO. Systems
+processing Confidential or Restricted data must ensure backups are protected to the same
+classification requirements.
+
+5.2 Backup Frequency
+
+Backup frequency must be sufficient to meet RPO. For transactional systems, this may require
+point-in-time recovery mechanisms, log shipping, or continuous replication.
+
+5.3 Retention
+
+Retention periods must align with regulatory and business requirements. At minimum, backups
+must support restoration for operational recovery scenarios and may be longer for regulatory
+records where applicable.
+
+5.4 Backup Integrity and Immutability
+
+Backups must be protected from tampering and ransomware. Where feasible, immutable or write-
+once storage must be used for critical datasets. Backup credentials must be protected using
+least privilege and monitored.
+
+6. Backup Implementation Standards
+
+Minimum standards include:
+
+- Encryption in transit and at rest for Confidential/Restricted backups.
+
+- Separation of backup administration from day-to-day system administration where feasible.
+
+- Centralized monitoring of backup job success/failure and capacity.
+
+- Regular verification of restore capability (see Section 8).
+
+For cloud environments, native backup services may be used if they meet security and
+retention requirements. Infrastructure-as-code should be backed up by retaining source
+repositories, configuration state, and deployment artifacts.
+
+7. Recovery Execution Procedure
+
+Recovery may be initiated due to data corruption, accidental deletion, ransomware, or
+infrastructure failure. Steps:
+
+1) Initiate an incident ticket and classify severity. Engage Information Security if ransomware or malicious activity is suspected.
+
+2) Identify affected system(s), data scope, and required recovery point/time.
+
+3) Confirm availability of backups, restore points, and required keys/credentials.
+
+4) Select recovery method: file-level restore, database point-in-time restore, full system restore, or failover to replica/DR environment.
+
+5) Execute recovery in a controlled manner, ensuring evidence is captured (job IDs, logs).
+
+6) Validate technical recovery (system health, error rates) and perform application/business validation (transaction integrity checks).
+
+7) Communicate restoration status and document timeline and outcomes in the incident record.
+
+8. Backup and Recovery Testing
+
+8.1 Routine Restore Tests
+
+Service Owners must ensure periodic restore tests are performed. Minimum frequency:
+
+- Critical services: quarterly restore tests.
+
+- Non-critical services: at least annually.
+
+Restore tests must validate that backups are usable and that RPO/RTO targets are feasible.
+
+8.2 Disaster Recovery Exercises
+
+DR exercises must be conducted at least annually for critical services and must include
+failover/failback where feasible. Exercises must test:
+
+- Technical failover processes and runbooks.
+
+- Access and authentication in DR environments.
+
+- Data integrity and application functionality validation steps.
+
+- Communications and decision-making processes.
+
+Failed tests or unmet objectives must result in remediation actions tracked to closure.
+
+9. Ransomware Resilience Considerations
+
+For ransomware scenarios, additional controls may be required:
+
+- Offline or immutable backups for critical datasets.
+
+- Segregated backup networks and restricted administrative access.
+
+- Monitoring for mass deletion, encryption patterns, or abnormal backup job behavior.
+
+- Recovery playbooks that include containment steps and evidence preservation.
+
+10. Documentation and Records
+
+Each service must maintain:
+
+- A backup strategy document (frequency, retention, storage location, encryption, owners).
+
+- Recovery runbooks with step-by-step restore procedures.
+
+- Records of backup job monitoring and failed job remediation.
+
+- Evidence of restore tests and DR exercises, including outcomes and lessons learned.
+
+Documentation must be stored in approved repositories and made available for audits.
+
+11. Exceptions
+
+Exceptions to backup frequency, retention, or testing requirements require documented risk
+acceptance and approval by the Service Owner and ICT Risk Management. For critical services,
+CRO approval may be required depending on impact.
+
+12. References
+
+- ICT Risk Management Policy (CBG-RISK-POL-006)
+
+- Incident Management Procedure (CBG-INC-PROC-003)
+
+- Data Classification and Handling Policy (CBG-DATA-POL-002)

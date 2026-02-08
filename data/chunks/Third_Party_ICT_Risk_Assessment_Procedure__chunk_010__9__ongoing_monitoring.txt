@@ -1,0 +1,14 @@
+9. Ongoing Monitoring
+
+Ongoing monitoring must include:
+
+- Annual (or more frequent for critical providers) reassessment of security posture and assurance reports.
+
+- Review of SLA performance and incidents.
+
+- Monitoring of significant changes (subprocessors, platform changes, data location changes).
+
+- Concentration risk monitoring for critical vendors used across multiple services.
+
+Any material adverse findings must be escalated to ICT Risk Management and relevant
+governance committees.

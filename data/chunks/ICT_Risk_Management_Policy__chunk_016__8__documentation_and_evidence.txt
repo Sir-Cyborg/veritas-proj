@@ -1,0 +1,7 @@
+8. Documentation and Evidence
+
+Risk assessments must be recorded in the risk register or approved tooling. Each high or
+critical risk must have supporting evidence, including control descriptions, test results
+where applicable, and linkage to incidents, vulnerabilities, changes, and audit findings.
+Evidence must be retained according to record retention requirements and be accessible for
+audits and regulatory inspections.

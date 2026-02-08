@@ -1,0 +1,13 @@
+2. Purpose and Objectives
+
+The objectives of this policy are to:
+
+- Protect confidentiality, integrity, and availability of CBG information and services.
+
+- Reduce ICT security risk to a level consistent with CBG risk appetite and regulatory obligations.
+
+- Provide a consistent control baseline across business units, subsidiaries, and outsourced arrangements.
+
+- Ensure that security is integrated into governance, operations, and software delivery.
+
+- Define accountability and enforce compliance through monitoring, reporting, and audit.

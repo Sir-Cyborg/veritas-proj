@@ -1,0 +1,10 @@
+1. Introduction
+
+ICT risk is the risk of financial loss, service disruption, regulatory breach, or
+reputational damage resulting from inadequate or failed internal processes, people, systems,
+or from external events affecting ICT. In a banking context, ICT risk management must
+support operational resilience, information security, and sound outsourcing practices.
+
+This policy defines the governance model, minimum processes, and reporting requirements for
+identifying, assessing, treating, monitoring, and reporting ICT risk within Corporate
+Banking Group (CBG).

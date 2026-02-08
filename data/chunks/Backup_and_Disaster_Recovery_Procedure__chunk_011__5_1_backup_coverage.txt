@@ -1,0 +1,5 @@
+5.1 Backup Coverage
+
+All production systems must have a documented backup strategy aligned to RTO/RPO. Systems
+processing Confidential or Restricted data must ensure backups are protected to the same
+classification requirements.

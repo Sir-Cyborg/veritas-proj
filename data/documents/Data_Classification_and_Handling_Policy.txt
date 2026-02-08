@@ -1,0 +1,157 @@
+DATA CLASSIFICATION AND HANDLING POLICY
+Corporate Banking Group (CBG)
+Data Governance Office
+
+Document Classification: Internal
+Owner: Chief Data Officer (CDO)
+Approved by: Chief Risk Officer (CRO); CISO; Chief Compliance Officer
+Effective Date: 2026-01-08
+Review Cycle: Annual
+Version: 1.0
+
+Document Control
+- 1.0 (2026-01-08): Initial release establishing data classification levels and handling requirements.
+
+1. Introduction
+
+Corporate Banking Group (CBG) processes a wide range of information, including customer
+data, financial transactions, trading positions, internal strategy documents, and technical
+information. Data must be managed and protected according to its sensitivity, business
+value, and regulatory requirements.
+
+This policy defines data classification levels and the minimum handling requirements for
+each level to protect confidentiality, integrity, and availability. It supports consistent
+controls across ICT systems, business processes, and supplier arrangements.
+
+2. Scope
+
+This policy applies to:
+
+- All data created, received, processed, stored, or transmitted by CBG in any format (digital, paper, voice).
+
+- All systems and repositories, including endpoints, file shares, email, collaboration platforms, databases, cloud services, and backups.
+
+- All third parties processing CBG data on CBG's behalf.
+
+It applies to both structured and unstructured data, including logs that may contain
+personal or sensitive information.
+
+3. Roles and Responsibilities
+
+- Data Owner: accountable for classification, access rules, and retention decisions for a dataset or information domain.
+
+- Data Custodian (often ICT): implements technical controls in systems storing/processing the data.
+
+- Users: handle data according to classification and report misclassification or mishandling.
+
+- Information Security: defines protective control expectations and monitors compliance.
+
+- Compliance/Legal: interprets regulatory and contractual requirements.
+
+4. Data Classification Levels
+
+CBG uses the following classification levels. When in doubt, classify at the higher level
+until confirmed by the Data Owner.
+
+4.1 Public
+
+Information approved for public release (e.g., published reports, marketing materials).
+
+4.2 Internal
+
+Information intended for internal use that could cause minor harm if disclosed (e.g.,
+internal procedures, organizational charts).
+
+4.3 Confidential
+
+Sensitive information that could cause significant harm if disclosed, including customer
+data, internal financial information, security architecture details, and non-public business
+plans.
+
+4.4 Restricted
+
+Highly sensitive information requiring the strongest protections, including: authentication
+secrets, cryptographic keys, highly sensitive customer identifiers, material non-public
+information (MNPI) where applicable, and core banking transaction integrity data.
+
+5. Classification Rules
+
+Data Owners must classify datasets at creation or onboarding into a system. Systems
+processing multiple classifications must apply controls based on the highest classification
+present. Derived data must not be classified lower than its source unless formally approved.
+Aggregation can increase sensitivity; for example, a combined dataset of transactions and
+customer identifiers may be Restricted even if each component dataset is Confidential.
+
+6. Handling Requirements by Classification
+
+6.1 Access Control
+
+Public: no access restrictions beyond integrity controls.
+
+Internal: access limited to CBG users with a business need.
+
+Confidential: role-based access; least privilege; MFA required for remote access; access
+reviews at least quarterly for critical datasets.
+
+Restricted: strict role-based access; MFA required for all access; privileged access must
+use PAM; enhanced monitoring and logging.
+
+6.2 Storage and Encryption
+
+Confidential and Restricted data must be encrypted in transit using approved protocols.
+Encryption at rest is required where feasible, especially for cloud storage, databases, and
+backups. Restricted data must not be stored on unmanaged devices or unapproved locations.
+
+6.3 Transmission and Sharing
+
+Confidential and Restricted data sharing must use approved secure channels. Emailing
+Restricted data is prohibited unless approved secure encryption mechanisms are used and the
+Data Owner approves. Sharing with third parties requires contract controls and due
+diligence.
+
+6.4 Printing and Physical Handling
+
+Confidential and Restricted data must be printed only when necessary and must be stored
+securely (locked cabinets) and disposed via secure shredding or approved disposal services.
+
+6.5 Logging and Monitoring
+
+Systems handling Confidential and Restricted data must generate audit logs for access and
+key changes. Restricted data systems require enhanced monitoring for anomalous access
+patterns.
+
+7. Data Retention and Disposal
+
+Retention periods must be defined by Data Owners in collaboration with Compliance/Legal and
+must reflect regulatory and business requirements. When retention expires, data must be
+disposed securely to prevent reconstruction. Disposal methods must be appropriate to media
+type (secure wipe for disks, cryptographic erase where supported, physical destruction where
+necessary). Backups must follow the same retention and disposal requirements.
+
+8. Data Loss Prevention and Incident Reporting
+
+CBG uses data loss prevention (DLP) controls where appropriate. Suspected loss, leakage, or
+unauthorized disclosure of Confidential or Restricted data must be reported immediately via
+the Incident Management process and escalated to Information Security and Compliance as
+required.
+
+9. Third-Party Data Handling
+
+Third parties processing Confidential or Restricted data must meet CBG security
+requirements, including encryption, access controls, logging, and breach notification.
+Contracts must specify data ownership, permitted use, retention, and return or deletion
+obligations at contract end.
+
+10. Exceptions and Non-Compliance
+
+Exceptions require Data Owner approval and Information Security review for
+Confidential/Restricted data. Non-compliance may result in access restrictions, remediation
+plans, disciplinary action, and supplier enforcement actions.
+
+11. References
+
+- ICT Security Policy (CBG-SEC-POL-001)
+
+- Access Management Procedure (CBG-IAM-PROC-006)
+
+- Incident Management Procedure (CBG-INC-PROC-003)

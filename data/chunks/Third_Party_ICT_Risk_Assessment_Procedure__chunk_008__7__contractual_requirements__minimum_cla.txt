@@ -1,0 +1,19 @@
+7. Contractual Requirements (Minimum Clauses)
+
+Contracts for ICT third parties must include (as applicable):
+
+- Confidentiality and data protection obligations aligned to CBG classification.
+
+- Right to audit and/or access to independent assurance reports.
+
+- Incident and breach notification timelines and cooperation obligations.
+
+- Subcontractor controls and approval requirements.
+
+- Service levels, availability commitments, and support response times.
+
+- Business continuity and disaster recovery obligations, including test frequency and RTO/RPO where relevant.
+
+- Data return/deletion requirements at termination and during transitions.
+
+- Exit and transition assistance obligations for critical services.

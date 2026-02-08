@@ -1,0 +1,2 @@
+3.1 RTO (Recovery Time Objective): the targeted duration of time within which a service must
+be restored after a disruption.

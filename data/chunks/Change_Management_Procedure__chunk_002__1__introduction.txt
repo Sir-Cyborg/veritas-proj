@@ -1,0 +1,9 @@
+1. Introduction
+
+Uncontrolled changes are a major driver of outages, security incidents, and operational
+risk. Change Management ensures that changes to ICT services are assessed, approved,
+implemented, and reviewed in a controlled and auditable manner.
+
+This procedure defines how CBG plans, approves, implements, and reviews changes to
+applications, infrastructure, configurations, and cloud resources, including standard,
+normal, and emergency changes.

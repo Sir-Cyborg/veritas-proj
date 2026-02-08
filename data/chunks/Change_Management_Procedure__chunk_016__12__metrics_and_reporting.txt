@@ -1,0 +1,13 @@
+12. Metrics and Reporting
+
+Change Management metrics include:
+
+- Change success rate and rollback rate.
+
+- Emergency change volume and root causes.
+
+- Change-related incident rate (incidents within 72 hours of a change).
+
+- Lead time and record quality compliance.
+
+Metrics are reviewed monthly by ICT governance.

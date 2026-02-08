@@ -1,8 +1,0 @@
-1. Introduction
-
-This procedure defines the mandatory operational steps to be followed during the
-development of software applications in order to ensure security-by-design and
-security-by-default principles.
-
-The procedure complements the Secure Software Development Policy and provides
-practical instructions for development teams.

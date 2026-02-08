@@ -1,0 +1,14 @@
+2. Scope
+
+This procedure applies to:
+
+- User accounts (employees, contractors, third parties) and their access to applications, databases, infrastructure, and cloud services.
+
+- Privileged accounts (administrators, root, break-glass access) and privileged activities.
+
+- Service accounts and machine identities used by applications, integrations, and automation.
+
+- Access to sensitive datasets and regulated systems.
+
+Physical access controls and building badges are managed by Facilities Security and are
+outside the scope of this procedure.

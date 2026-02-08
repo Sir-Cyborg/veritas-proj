@@ -1,0 +1,10 @@
+7.3 Escalation and Assignment
+Escalate when:
+- No known resolution/workaround exists
+- L1 diagnostics indicate system-level issue
+- Monitoring suggests multi-component failure
+- Incident meets P1/P2 criteria
+Escalation steps:
+1) Assign incident to correct L2/L3 group.
+2) Attach evidence (logs, error messages, monitoring dashboards).
+3) Update users/stakeholders with expected next update time.

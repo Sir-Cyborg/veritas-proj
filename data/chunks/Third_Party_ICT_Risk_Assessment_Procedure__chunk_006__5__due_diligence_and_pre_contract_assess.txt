@@ -1,0 +1,18 @@
+5. Due Diligence and Pre-Contract Assessment
+
+Minimum due diligence steps:
+
+1) Supplier questionnaire covering security governance, controls, and operational practices.
+
+2) Review of assurance reports (e.g., SOC 2 Type II, ISO 27001 certificates) where available.
+
+3) Assessment of data handling practices, encryption, access controls, and incident response/breach notification.
+
+4) Review of subcontracting arrangements and data location/processing locations.
+
+5) Financial and operational stability assessment for critical providers.
+
+6) Assessment of regulatory constraints and required approvals (where applicable).
+
+High-risk engagements may require onsite assessment, penetration testing evidence, or
+additional assurance activities.

@@ -1,4 +1,0 @@
-4.2 Residual Risk
-Assessment of remaining risk after controls are applied.
-
-Risk impact and likelihood are evaluated using a qualitative scoring model.

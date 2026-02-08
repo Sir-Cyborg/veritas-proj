@@ -1,0 +1,13 @@
+10. Post-Implementation Review and Closure
+
+After implementation, the Change Requestor must update the record with:
+
+- Outcome (successful, partially successful, failed, rolled back).
+
+- Actual start/end times and any issues encountered.
+
+- Validation evidence and monitoring results.
+
+- Lessons learned and follow-up actions if needed.
+
+Failed or high-impact changes must be reviewed by CAB and may trigger Problem Management.

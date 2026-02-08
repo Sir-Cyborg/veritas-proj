@@ -1,6 +1,0 @@
-6. Emergency Changes
-
-Emergency changes must:
-- Be documented retrospectively
-- Be reviewed after implementation
-- Include justification for urgency

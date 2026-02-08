@@ -1,4 +1,0 @@
-7. Exceptions
-
-Any deviation from this procedure requires formal approval from the Application
-Security Team and must be documented.

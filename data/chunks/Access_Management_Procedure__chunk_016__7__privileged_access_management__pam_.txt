@@ -1,0 +1,19 @@
+7. Privileged Access Management (PAM)
+
+Privileged access must be controlled through an approved Privileged Access Management
+solution where feasible.
+
+Mandatory requirements:
+
+- Separate privileged accounts: privileged access must not be performed using standard user accounts.
+
+- MFA for all privileged access; step-up authentication for high-risk actions.
+
+- Time-bound elevation (just-in-time access) whenever supported.
+
+- Session recording or command logging for administrative sessions on critical systems.
+
+- Break-glass access must be strictly limited, monitored, and reviewed after use.
+
+Privileged access requests must include a task reference (change ticket, incident ticket)
+and must be approved by the System Owner.

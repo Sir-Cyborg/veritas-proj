@@ -1,8 +1,14 @@
 1. Introduction
 
-Information and Communication Technology (ICT) systems represent a critical asset for
-Corporate Banking Group. This policy defines the principles and high-level rules governing
-the protection of information systems, digital assets, and data processed by the organization.
+Information and Communication Technology (ICT) systems are critical assets for Corporate
+Banking Group (CBG). These systems enable customer onboarding, payments, lending operations,
+treasury services, regulatory reporting, and internal collaboration. The purpose of this ICT
+Security Policy is to define high-level principles and mandatory security rules for
+protecting information, systems, and services against accidental or malicious loss, misuse,
+disruption, or unauthorized disclosure.
 
-The policy applies to all ICT environments, including on-premise infrastructure, cloud
-services, and third-party managed platforms.
+This policy establishes minimum security requirements for all ICT environments used to
+store, process, or transmit CBG information, including on-premise infrastructure, endpoints,
+cloud services, container platforms, and third-party managed systems. Detailed technical
+standards and procedures (e.g., hardening baselines, patching procedures, incident response
+runbooks) must align to this policy.

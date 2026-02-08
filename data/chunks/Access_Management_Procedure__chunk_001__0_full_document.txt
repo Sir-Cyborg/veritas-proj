@@ -1,0 +1,13 @@
+ACCESS MANAGEMENT PROCEDURE
+Corporate Banking Group (CBG)
+Identity & Access Management
+
+Document Classification: Internal
+Owner: Head of Identity & Access Management (IAM)
+Approved by: CISO; CIO, Corporate Banking Group
+Effective Date: 2026-01-18
+Review Cycle: Annual
+Version: 1.0
+
+Document Control
+- 1.0 (2026-01-18): Initial release defining identity lifecycle, access requests, approvals, and privileged access controls.

@@ -1,0 +1,6 @@
+6.6 Logging, Monitoring, and Detection
+
+Security-relevant events must be logged and retained according to retention standards. Logs
+must be protected from tampering and forwarded to centralized monitoring where feasible.
+Alerting must exist for high-risk events such as privileged access, authentication
+anomalies, and changes to security configurations.

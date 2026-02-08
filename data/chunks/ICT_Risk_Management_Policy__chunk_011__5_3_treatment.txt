@@ -1,0 +1,5 @@
+5.3 Treatment
+
+Treatment options include mitigate, transfer, avoid, and accept. Mitigations must be
+documented as control improvements or remediation actions with owners, deadlines, and
+measurable outcomes.

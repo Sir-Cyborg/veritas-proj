@@ -1,0 +1,4 @@
+3.1 Standard Change
+
+A low-risk, pre-approved, repeatable change with a proven procedure and predefined testing
+(e.g., routine certificate renewal using a documented runbook).

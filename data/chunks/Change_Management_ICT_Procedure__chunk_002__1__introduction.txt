@@ -1,4 +1,0 @@
-1. Introduction
-
-Uncontrolled changes to ICT systems may introduce operational and security risks.
-This procedure defines the steps required to manage changes in a controlled manner.

@@ -1,0 +1,196 @@
+CHANGE MANAGEMENT PROCEDURE
+Corporate Banking Group (CBG)
+IT Service Management Office (ITSM)
+
+Document Classification: Internal
+Owner: Head of Change & Release Management
+Approved by: CIO; Head of IT Service Management
+Effective Date: 2026-01-16
+Review Cycle: Annual
+Version: 1.0
+
+Document Control
+- 1.0 (2026-01-16): Initial release defining change categories, approvals, testing, and emergency changes.
+
+1. Introduction
+
+Uncontrolled changes are a major driver of outages, security incidents, and operational
+risk. Change Management ensures that changes to ICT services are assessed, approved,
+implemented, and reviewed in a controlled and auditable manner.
+
+This procedure defines how CBG plans, approves, implements, and reviews changes to
+applications, infrastructure, configurations, and cloud resources, including standard,
+normal, and emergency changes.
+
+2. Scope
+
+This procedure applies to changes affecting:
+
+- Production systems and services.
+
+- Shared platforms (identity, network, databases, monitoring).
+
+- Security controls and configurations (firewall rules, IAM policies).
+
+- Cloud infrastructure and infrastructure-as-code deployments.
+
+Routine operational activities that do not change state (e.g., log review) are not changes.
+Patching, configuration adjustments, and deployments are changes and must follow this
+procedure.
+
+3. Change Types and Definitions
+
+3.1 Standard Change
+
+A low-risk, pre-approved, repeatable change with a proven procedure and predefined testing
+(e.g., routine certificate renewal using a documented runbook).
+
+3.2 Normal Change
+
+A change requiring assessment and approval by Change Advisory Board (CAB) or delegated
+approvers based on risk and impact.
+
+3.3 Emergency Change
+
+A change that must be implemented urgently to restore service or address a critical security
+risk. Emergency changes require expedited approval and post-implementation review.
+
+4. Roles and Responsibilities
+
+- Change Requestor: prepares the change record with required detail and coordinates implementation.
+
+- Implementer: executes the change steps and validates outcomes.
+
+- Service Owner: accountable for business impact decisions and approves changes for their service.
+
+- CAB: reviews and approves normal changes based on risk/impact; ensures scheduling coordination.
+
+- Change Manager: governs the process, ensures record quality, and chairs CAB meetings.
+
+- Information Security/IAM: reviews changes that affect security controls or sensitive environments.
+
+5. Change Record Requirements
+
+All changes must be recorded in the ITSM tool and include at minimum:
+
+- Scope and affected services/configuration items.
+
+- Business justification and expected benefits.
+
+- Risk assessment (impact, likelihood, rollback complexity).
+
+- Implementation plan with step-by-step tasks.
+
+- Testing evidence and validation plan.
+
+- Rollback/backout plan and decision criteria for aborting.
+
+- Communication plan and stakeholder notifications.
+
+- Scheduling details and maintenance window alignment.
+
+6. Risk Assessment and Approval
+
+Approval levels depend on risk and scope. Factors include:
+
+- Customer impact potential, including digital channel availability and payment processing.
+
+- Data integrity risk (transaction postings, balances).
+
+- Security impact (IAM policies, encryption, firewall rules).
+
+- Complexity and novelty of the change.
+
+Low-risk standard changes may be auto-approved but must follow the documented procedure.
+Normal changes require CAB or delegated approval. High-risk changes require additional
+approvals, including Information Security review where applicable.
+
+7. Testing and Pre-Implementation Controls
+
+Changes must be tested in lower environments where feasible. Minimum expectations:
+
+- Functional testing for application releases.
+
+- Regression testing for critical services.
+
+- Security testing when security-related components change.
+
+- Performance checks where relevant (capacity-sensitive systems).
+
+Evidence (test results, deployment pipeline logs) must be attached to the change record.
+
+8. Implementation and Validation
+
+Implementation must follow the approved plan. During execution:
+
+1) Confirm prerequisite conditions and approvals.
+
+2) Notify stakeholders according to the communication plan.
+
+3) Execute steps with appropriate segregation of duties.
+
+4) Validate success using technical monitoring and business validation where appropriate.
+
+5) Monitor for stabilization after completion.
+
+Any deviations from the approved plan must be documented in the change record.
+
+9. Emergency Changes
+
+Emergency changes may be initiated for:
+
+- P1 incidents requiring immediate restoration.
+
+- Critical vulnerabilities requiring urgent mitigation.
+
+Emergency change requirements:
+
+- Document rationale and risk assessment (brief but explicit).
+
+- Obtain expedited approval from authorized approver(s) (on-call manager/service owner).
+
+- Execute with enhanced monitoring and maintain a clear rollback plan.
+
+- Conduct a post-implementation review within 5 business days to validate controls and prevent recurrence.
+
+10. Post-Implementation Review and Closure
+
+After implementation, the Change Requestor must update the record with:
+
+- Outcome (successful, partially successful, failed, rolled back).
+
+- Actual start/end times and any issues encountered.
+
+- Validation evidence and monitoring results.
+
+- Lessons learned and follow-up actions if needed.
+
+Failed or high-impact changes must be reviewed by CAB and may trigger Problem Management.
+
+11. Change Calendar and Blackout Windows
+
+Changes must be scheduled considering business critical periods (e.g., month-end close,
+regulatory reporting windows). Blackout windows must be defined and enforced for critical
+systems. Exceptions require senior approval and enhanced controls.
+
+12. Metrics and Reporting
+
+Change Management metrics include:
+
+- Change success rate and rollback rate.
+
+- Emergency change volume and root causes.
+
+- Change-related incident rate (incidents within 72 hours of a change).
+
+- Lead time and record quality compliance.
+
+Metrics are reviewed monthly by ICT governance.
+
+13. References
+
+- Incident Management Procedure (CBG-INC-PROC-003)
+
+- Vulnerability Management Procedure (CBG-VULN-PROC-004)
+
+- Secure Software Development Policy (CBG-SSDLC-POL-007)

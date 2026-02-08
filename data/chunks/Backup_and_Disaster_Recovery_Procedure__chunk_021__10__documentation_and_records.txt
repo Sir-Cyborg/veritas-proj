@@ -1,0 +1,13 @@
+10. Documentation and Records
+
+Each service must maintain:
+
+- A backup strategy document (frequency, retention, storage location, encryption, owners).
+
+- Recovery runbooks with step-by-step restore procedures.
+
+- Records of backup job monitoring and failed job remediation.
+
+- Evidence of restore tests and DR exercises, including outcomes and lessons learned.
+
+Documentation must be stored in approved repositories and made available for audits.

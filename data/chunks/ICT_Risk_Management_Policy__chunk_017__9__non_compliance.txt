@@ -1,0 +1,6 @@
+9. Non-Compliance
+
+Non-compliance with this policy must be documented and remediated. Repeated non-compliance
+may result in escalation to the CIO and CRO and may trigger enhanced monitoring or audit
+review. Where non-compliance increases risk beyond appetite, compensating controls or
+service restrictions may be required.

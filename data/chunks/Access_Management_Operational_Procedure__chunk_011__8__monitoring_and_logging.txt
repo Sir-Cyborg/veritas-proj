@@ -1,3 +1,0 @@
-8. Monitoring and Logging
-
-All access activities must be logged and monitored.

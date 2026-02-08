@@ -1,0 +1,12 @@
+10. Revocation and Emergency Removal
+
+Access must be revoked promptly when:
+
+- Employment or contract ends.
+
+- Business need ends (project completed, role changed).
+
+- Policy violations occur (e.g., credential sharing) or compromise is suspected.
+
+For suspected compromise, SOC may request immediate access removal and credential resets.
+Emergency removals must be documented and communicated to relevant owners.

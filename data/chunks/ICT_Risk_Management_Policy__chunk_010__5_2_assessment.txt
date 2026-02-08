@@ -1,0 +1,5 @@
+5.2 Assessment
+
+Risks must be assessed for inherent risk and residual risk. Assessment must consider
+likelihood and impact across dimensions relevant to banking: customer harm, financial loss,
+regulatory impact, data confidentiality/integrity, and service availability.

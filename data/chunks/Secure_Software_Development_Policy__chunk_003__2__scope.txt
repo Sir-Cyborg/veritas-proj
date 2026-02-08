@@ -1,0 +1,12 @@
+2. Scope
+
+This policy applies to:
+
+- All application teams developing, maintaining, or configuring software used by CBG.
+
+- All code repositories, CI/CD pipelines, build systems, artifact stores, and deployment platforms.
+
+- All software components including APIs, microservices, batch processes, mobile apps, web apps, and infrastructure-as-code (IaC).
+
+For third-party software, the policy applies to configuration, secure deployment, patching,
+and supplier assurance obligations.

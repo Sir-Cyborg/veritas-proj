@@ -1,0 +1,14 @@
+4. Third-Party Classification and Criticality
+
+Third parties must be classified based on:
+
+- Data sensitivity: whether Confidential or Restricted data is processed.
+
+- Service criticality: whether the service supports critical banking functions (payments, authentication, customer channels).
+
+- Connectivity: network integration depth and remote access requirements.
+
+- Replaceability and concentration: ease of switching, market availability, dependency level.
+
+Critical third parties require enhanced due diligence, resilience assessment, and executive
+oversight.

@@ -1,0 +1,15 @@
+6. Risk Assessment and Approval
+
+Approval levels depend on risk and scope. Factors include:
+
+- Customer impact potential, including digital channel availability and payment processing.
+
+- Data integrity risk (transaction postings, balances).
+
+- Security impact (IAM policies, encryption, firewall rules).
+
+- Complexity and novelty of the change.
+
+Low-risk standard changes may be auto-approved but must follow the documented procedure.
+Normal changes require CAB or delegated approval. High-risk changes require additional
+approvals, including Information Security review where applicable.

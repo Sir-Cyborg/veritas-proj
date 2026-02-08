@@ -1,0 +1,9 @@
+4.1 Three Lines of Defense (3LoD)
+
+CBG adopts a three lines of defense model for ICT risk:
+
+- First line (ICT delivery and operations): owns risks and controls; implements remediation.
+
+- Second line (ICT Risk Management and Information Security): defines methodology, challenges assessments, monitors compliance.
+
+- Third line (Internal Audit): provides independent assurance on the effectiveness of controls and governance.

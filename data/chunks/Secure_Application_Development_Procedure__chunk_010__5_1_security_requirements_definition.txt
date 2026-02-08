@@ -1,7 +1,0 @@
-5.1 Security Requirements Definition
-During the requirements phase, the development team must:
-- Identify data types processed by the application
-- Define authentication and authorization requirements
-- Identify regulatory constraints (e.g. data retention, auditability)
-
-All security requirements must be documented and approved before design activities begin.

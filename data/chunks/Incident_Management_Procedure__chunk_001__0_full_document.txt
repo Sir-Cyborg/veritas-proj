@@ -1,0 +1,13 @@
+INCIDENT MANAGEMENT PROCEDURE
+Corporate Banking Group (CBG)
+IT Service Management Office (ITSM)
+
+Document Classification: Internal
+Owner: Head of Incident & Problem Management
+Approved by: CIO, Corporate Banking Group
+Effective Date: 2026-01-15
+Review Cycle: Annual
+Version: 1.0
+
+Document Control
+- 1.0 (2026-01-15): Initial release aligned to ITIL-based practices and internal security requirements.

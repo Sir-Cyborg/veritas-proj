@@ -1,0 +1,18 @@
+7. Recovery Execution Procedure
+
+Recovery may be initiated due to data corruption, accidental deletion, ransomware, or
+infrastructure failure. Steps:
+
+1) Initiate an incident ticket and classify severity. Engage Information Security if ransomware or malicious activity is suspected.
+
+2) Identify affected system(s), data scope, and required recovery point/time.
+
+3) Confirm availability of backups, restore points, and required keys/credentials.
+
+4) Select recovery method: file-level restore, database point-in-time restore, full system restore, or failover to replica/DR environment.
+
+5) Execute recovery in a controlled manner, ensuring evidence is captured (job IDs, logs).
+
+6) Validate technical recovery (system health, error rates) and perform application/business validation (transaction integrity checks).
+
+7) Communicate restoration status and document timeline and outcomes in the incident record.

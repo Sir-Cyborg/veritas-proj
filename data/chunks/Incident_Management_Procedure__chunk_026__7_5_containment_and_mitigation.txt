@@ -1,0 +1,8 @@
+7.5 Containment and Mitigation
+Containment aims to reduce impact quickly while maintaining security and compliance.
+Examples:
+- Traffic throttling or rate limiting
+- Feature flags to disable a failing function
+- Failover to secondary region (if approved and tested)
+- Temporary disablement of non-critical integrations
+Any containment that materially changes production behavior must be recorded and, where required, executed under Emergency Change controls (see Section 10).

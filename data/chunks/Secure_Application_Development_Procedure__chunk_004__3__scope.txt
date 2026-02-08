@@ -1,6 +1,0 @@
-3. Scope
-
-This procedure applies to:
-- All internally developed applications
-- Applications developed by external vendors on behalf of the bank
-- Maintenance and enhancement activities on existing applications

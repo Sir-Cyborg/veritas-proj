@@ -1,0 +1,13 @@
+THIRD-PARTY ICT RISK ASSESSMENT PROCEDURE
+Corporate Banking Group (CBG)
+Third-Party Risk Management (ICT)
+
+Document Classification: Internal
+Owner: Head of Third-Party Risk Management (TPRM) - ICT
+Approved by: Chief Risk Officer (CRO); CISO; Procurement Director
+Effective Date: 2026-01-22
+Review Cycle: Annual
+Version: 1.0
+
+Document Control
+- 1.0 (2026-01-22): Initial release defining due diligence, security assessment, onboarding, and ongoing monitoring for ICT third parties.

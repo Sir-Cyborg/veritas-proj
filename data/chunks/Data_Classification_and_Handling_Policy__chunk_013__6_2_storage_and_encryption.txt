@@ -1,0 +1,5 @@
+6.2 Storage and Encryption
+
+Confidential and Restricted data must be encrypted in transit using approved protocols.
+Encryption at rest is required where feasible, especially for cloud storage, databases, and
+backups. Restricted data must not be stored on unmanaged devices or unapproved locations.

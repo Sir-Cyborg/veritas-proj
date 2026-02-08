@@ -1,0 +1,6 @@
+9. Exceptions and Enforcement
+
+Exceptions to this policy require a documented risk acceptance with an expiry date and
+compensating controls. Non-compliance may lead to release blocking, mandatory remediation
+plans, or restriction of deployment privileges. Material deviations must be reported to ICT
+Risk Management.

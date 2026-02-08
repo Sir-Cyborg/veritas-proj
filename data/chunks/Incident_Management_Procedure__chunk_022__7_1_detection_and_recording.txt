@@ -1,0 +1,4 @@
+7.1 Detection and Recording
+1) Detect incident (user report, monitoring alert, vendor notification, SOC finding).
+2) Log incident in ITSM tool with minimum data.
+3) Acknowledge receipt to reporter (if user-reported) and provide Incident ID.

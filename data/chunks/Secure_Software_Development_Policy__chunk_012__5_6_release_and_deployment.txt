@@ -1,0 +1,4 @@
+5.6 Release and Deployment
+
+Production releases must be traceable to approved change records and include rollback plans.
+Emergency fixes must follow emergency change controls and be reviewed post-deployment.

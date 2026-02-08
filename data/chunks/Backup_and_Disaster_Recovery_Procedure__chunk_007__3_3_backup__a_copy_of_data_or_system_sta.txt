@@ -1,0 +1,1 @@
+3.3 Backup: a copy of data or system state used to restore after loss/corruption.

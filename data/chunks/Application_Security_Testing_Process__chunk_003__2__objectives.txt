@@ -1,6 +1,0 @@
-2. Objectives
-
-The objectives of this process are to:
-- Detect security weaknesses early
-- Reduce remediation costs
-- Improve overall software quality

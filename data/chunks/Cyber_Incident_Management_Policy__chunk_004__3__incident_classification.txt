@@ -1,6 +1,0 @@
-3. Incident Classification
-
-Incidents are classified based on:
-- Impact
-- Urgency
-- Regulatory relevance

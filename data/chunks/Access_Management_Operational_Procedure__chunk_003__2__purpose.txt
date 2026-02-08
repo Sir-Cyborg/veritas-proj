@@ -1,6 +1,0 @@
-2. Purpose
-
-The purpose of this procedure is to:
-- Ensure access is granted based on least privilege
-- Prevent unauthorized access
-- Maintain traceability of access decisions

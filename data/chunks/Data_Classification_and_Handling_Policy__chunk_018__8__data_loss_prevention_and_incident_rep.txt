@@ -1,0 +1,6 @@
+8. Data Loss Prevention and Incident Reporting
+
+CBG uses data loss prevention (DLP) controls where appropriate. Suspected loss, leakage, or
+unauthorized disclosure of Confidential or Restricted data must be reported immediately via
+the Incident Management process and escalated to Information Security and Compliance as
+required.

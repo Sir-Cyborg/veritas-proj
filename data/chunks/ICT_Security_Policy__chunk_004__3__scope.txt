@@ -1,6 +1,12 @@
 3. Scope
 
 This policy applies to:
-- All employees, contractors, and third parties
-- All information systems and applications
-- All data classified as internal, confidential, or restricted
+
+- All employees, contractors, consultants, and temporary staff who access or manage CBG ICT resources.
+
+- All information assets, including data, applications, infrastructure, code repositories, and cryptographic keys.
+
+- All service providers that process CBG data or provide ICT services, including SaaS, IaaS, and managed services.
+
+This policy also applies to pre-production environments whenever they contain production
+data, confidential test data, or are connected to production networks.

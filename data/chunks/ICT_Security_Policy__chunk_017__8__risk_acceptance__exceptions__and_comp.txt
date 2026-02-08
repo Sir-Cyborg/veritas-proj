@@ -1,0 +1,7 @@
+8. Risk Acceptance, Exceptions, and Compensating Controls
+
+Deviations from this policy require documented risk acceptance. The request must include
+scope, justification, impact analysis, proposed compensating controls, and an expiry date.
+Approval levels depend on the classification and business impact, and may require sign-off
+by the Service Owner, ICT Risk Management, and the CISO. Exceptions must be tracked and
+reviewed at least quarterly.

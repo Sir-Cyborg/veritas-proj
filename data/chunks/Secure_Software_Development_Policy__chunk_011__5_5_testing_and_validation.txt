@@ -1,0 +1,9 @@
+5.5 Testing and Validation
+
+Security testing must be risk-based. At minimum:
+
+- Automated tests must include security-relevant scenarios (authorization checks, input validation).
+
+- DAST or equivalent runtime testing for internet-facing applications.
+
+- Periodic penetration testing for critical services, and after major changes.

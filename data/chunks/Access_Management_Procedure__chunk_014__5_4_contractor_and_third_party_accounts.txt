@@ -1,0 +1,4 @@
+5.4 Contractor and Third-Party Accounts
+
+All non-employee accounts must have an internal sponsor, an expiry date, and periodic
+revalidation.

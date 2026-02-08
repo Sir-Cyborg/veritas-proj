@@ -1,0 +1,12 @@
+9. Access Reviews and Recertification
+
+Access to critical systems and sensitive data must be reviewed at least quarterly. Minimum
+review steps:
+
+1) System Owner receives a list of current entitlements and validates each user and access level.
+
+2) Access without clear business justification must be removed.
+
+3) SoD conflicts must be documented and remediated or formally accepted with compensating controls.
+
+4) Review completion evidence must be retained for audit.

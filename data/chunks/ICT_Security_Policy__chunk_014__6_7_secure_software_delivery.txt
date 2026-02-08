@@ -1,0 +1,5 @@
+6.7 Secure Software Delivery
+
+All software delivery pipelines must include security controls, including code reviews,
+dependency management, and security testing appropriate to the risk of the application.
+High-risk changes require additional approvals and evidence.

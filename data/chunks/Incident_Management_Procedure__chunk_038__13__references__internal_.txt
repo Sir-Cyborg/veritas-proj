@@ -1,0 +1,6 @@
+13. References (Internal)
+- ITSM Policy (CBG-ITSM-POL-001)
+- Major Incident Communication Plan (CBG-ITSM-PLAN-003)
+- Change Management Procedure (CBG-CHG-PROC-002)
+- Security Incident Handling Standard (CBG-SOC-STD-005)
+- Configuration Management Standard (CBG-CMDB-STD-004)

@@ -1,5 +1,0 @@
-4.1 Access Request Submission
-Access requests must:
-- Be formally submitted
-- Specify required access level
-- Be justified by business need

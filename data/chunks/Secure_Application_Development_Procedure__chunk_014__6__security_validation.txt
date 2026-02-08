@@ -1,6 +1,0 @@
-6. Security Validation
-
-Before deployment:
-- Static code analysis must be executed
-- Identified vulnerabilities must be remediated or formally accepted
-- Security test results must be documented

@@ -1,0 +1,4 @@
+11.1 Mandatory Records
+- Incident ticket with full timeline
+- Associated chat logs or bridge call notes (if P1/P2), stored per retention policy
+- Post-incident report and action tracker (if triggered)

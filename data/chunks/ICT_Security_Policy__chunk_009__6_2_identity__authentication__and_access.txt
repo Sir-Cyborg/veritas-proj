@@ -1,0 +1,6 @@
+6.2 Identity, Authentication, and Access Control
+
+Unique user identities are mandatory. Multi-factor authentication (MFA) is required for
+remote access, privileged access, and access to sensitive data. Shared accounts are
+prohibited except for approved service accounts with documented ownership, rotation of
+secrets, and compensating monitoring.

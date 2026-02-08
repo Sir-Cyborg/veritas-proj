@@ -1,0 +1,12 @@
+1. Introduction
+Corporate Banking Group (CBG) relies on stable, secure, and resilient Information and Communication Technology (ICT) services to deliver banking products, process payments, and protect client data. This Incident Management Procedure defines the operational steps, roles, decision points, and records required to restore normal service operation as quickly as possible following an unplanned interruption or reduction in service quality.
+
+Incident Management is focused on rapid restoration and minimizing business impact. Root cause analysis and long-term remediation are managed through Problem Management, although Incident Management must capture adequate information to enable downstream investigation.
+
+This procedure applies to incidents impacting:
+- Core banking applications and APIs
+- Customer-facing digital channels (online banking, mobile apps)
+- End-user computing (EUC) services
+- Infrastructure (network, servers, storage)
+- Cloud services and third-party managed platforms
+- Security monitoring and identity systems

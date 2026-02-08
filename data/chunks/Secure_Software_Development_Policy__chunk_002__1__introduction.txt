@@ -1,0 +1,10 @@
+1. Introduction
+
+Software delivered by Corporate Banking Group (CBG) enables critical customer and internal
+processes, including payments, lending, onboarding, and reporting. Security defects in
+software can lead to fraud, data breaches, regulatory breaches, and operational disruption.
+
+This Secure Software Development Policy defines mandatory security requirements to be
+integrated throughout the software development lifecycle (SDLC), from planning and design to
+implementation, testing, deployment, and maintenance. It applies to in-house developed
+software and to externally sourced software where CBG controls configuration or code.

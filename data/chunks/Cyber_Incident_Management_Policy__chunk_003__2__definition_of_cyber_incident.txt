@@ -1,6 +1,0 @@
-2. Definition of Cyber Incident
-
-A cyber incident is any event that:
-- Compromises information security
-- Violates security policies
-- Threatens ICT operations

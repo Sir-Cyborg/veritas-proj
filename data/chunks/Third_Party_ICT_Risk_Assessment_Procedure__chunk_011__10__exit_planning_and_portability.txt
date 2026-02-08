@@ -1,0 +1,13 @@
+10. Exit Planning and Portability
+
+For critical services, an exit plan is mandatory and must include:
+
+- Data portability mechanisms and formats.
+
+- Technical migration approach (e.g., parallel run, cutover plans).
+
+- Contractual obligations for transition support.
+
+- Backup and contingency measures to reduce lock-in.
+
+Exit plans must be reviewed at least annually and after material changes.

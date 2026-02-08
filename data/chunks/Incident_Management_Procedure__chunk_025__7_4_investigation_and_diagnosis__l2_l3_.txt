@@ -1,0 +1,5 @@
+7.4 Investigation and Diagnosis (L2/L3)
+1) Confirm reproducibility and scope (single tenant vs multi-tenant; region-specific vs global).
+2) Identify probable component: network, database, identity, API gateway, application release, third-party dependency.
+3) Use observability tools (metrics, logs, tracing) and correlate with recent changes.
+4) Document hypotheses and findings in the incident timeline.

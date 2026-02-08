@@ -1,0 +1,22 @@
+6. Access Request and Approval Workflow
+
+All non-baseline access must be requested via the approved access request system and
+include:
+
+- System name and environment (prod/non-prod).
+
+- Access level/role requested (read, write, admin) and justification.
+
+- Data classification of the information to be accessed.
+
+- Start date and end date (mandatory for temporary access).
+
+Approval rules:
+
+1) Line Manager approval is required for user access.
+
+2) System/Service Owner approval is required for access to their systems.
+
+3) Additional approvals are required for sensitive systems (e.g., payments, customer data) and privileged access.
+
+4) IAM validates SoD conflicts and risk controls before provisioning.

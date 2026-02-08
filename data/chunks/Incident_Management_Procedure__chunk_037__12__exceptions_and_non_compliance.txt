@@ -1,0 +1,7 @@
+12. Exceptions and Non-Compliance
+Any deviation from this procedure (e.g., unrecorded production change, missing communications for P1) must be:
+- Documented in the incident record
+- Reported to the ITSM governance lead
+- Assessed for control remediation (training, process changes, tooling)
+
+Repeated non-compliance may trigger management escalation and audit review.

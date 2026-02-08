@@ -1,0 +1,2 @@
+3.5 Service Owner
+Accountable leader for a given service, responsible for prioritization, risk acceptance decisions (where applicable), and ensuring post-incident actions are executed.

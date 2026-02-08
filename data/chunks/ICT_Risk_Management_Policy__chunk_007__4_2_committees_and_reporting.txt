@@ -1,0 +1,5 @@
+4.2 Committees and Reporting
+
+ICT Risk Management reports key risk indicators (KRIs), top risks, and remediation progress
+to the Operational Risk Committee and relevant technology governance forums at least
+monthly. Material risks are escalated promptly.

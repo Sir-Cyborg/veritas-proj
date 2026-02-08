@@ -1,6 +1,0 @@
-3. Scope
-
-This procedure applies to:
-- Infrastructure changes
-- Application changes
-- Security configuration changes

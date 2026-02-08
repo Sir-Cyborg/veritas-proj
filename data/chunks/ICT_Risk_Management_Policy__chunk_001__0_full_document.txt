@@ -1,0 +1,13 @@
+ICT RISK MANAGEMENT POLICY
+Corporate Banking Group (CBG)
+ICT Risk Management Division
+
+Document Classification: Internal
+Owner: Head of ICT Risk Management
+Approved by: Chief Risk Officer (CRO); CIO, Corporate Banking Group
+Effective Date: 2026-01-05
+Review Cycle: Annual
+Version: 1.0
+
+Document Control
+- 1.0 (2026-01-05): Initial release defining ICT risk governance, assessment, and reporting requirements.

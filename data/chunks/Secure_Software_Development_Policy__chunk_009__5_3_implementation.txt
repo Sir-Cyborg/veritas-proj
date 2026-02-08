@@ -1,0 +1,5 @@
+5.3 Implementation
+
+Developers must follow approved secure coding standards and avoid prohibited practices such
+as hardcoded secrets, unsafe deserialization, and insecure direct object references. Code
+must be peer-reviewed prior to merge for all repositories.

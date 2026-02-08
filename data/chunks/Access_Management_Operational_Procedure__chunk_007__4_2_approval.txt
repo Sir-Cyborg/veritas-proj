@@ -1,4 +1,0 @@
-4.2 Approval
-Access requests require approval from:
-- Line manager
-- System owner (for sensitive systems)

@@ -1,0 +1,4 @@
+4.2 Internal
+
+Information intended for internal use that could cause minor harm if disclosed (e.g.,
+internal procedures, organizational charts).

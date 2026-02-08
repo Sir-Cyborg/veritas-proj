@@ -1,0 +1,183 @@
+THIRD-PARTY ICT RISK ASSESSMENT PROCEDURE
+Corporate Banking Group (CBG)
+Third-Party Risk Management (ICT)
+
+Document Classification: Internal
+Owner: Head of Third-Party Risk Management (TPRM) - ICT
+Approved by: Chief Risk Officer (CRO); CISO; Procurement Director
+Effective Date: 2026-01-22
+Review Cycle: Annual
+Version: 1.0
+
+Document Control
+- 1.0 (2026-01-22): Initial release defining due diligence, security assessment, onboarding, and ongoing monitoring for ICT third parties.
+
+1. Introduction
+
+Corporate Banking Group (CBG) relies on third-party providers for software, cloud services,
+infrastructure hosting, development support, and specialized technology. Third-party
+relationships introduce risks including data leakage, service disruption, concentration
+risk, and reduced control over the technology environment.
+
+This procedure defines minimum requirements for assessing, onboarding, and monitoring third-
+party ICT providers, ensuring risks are identified and managed in line with CBG risk
+appetite and operational resilience objectives.
+
+2. Scope
+
+This procedure applies to ICT-related third parties, including:
+
+- SaaS/IaaS/PaaS cloud providers and managed service providers.
+
+- Vendors with remote access to CBG systems.
+
+- Software suppliers (including open source support vendors) where CBG depends on vendor patches/support.
+
+- Outsourced development, operations, or security services.
+
+The procedure applies to new engagements, renewals, and material changes to existing
+contracts.
+
+3. Roles and Responsibilities
+
+- Business Owner: sponsors the engagement, defines service requirements, and owns business impact decisions.
+
+- ICT Service Owner: validates technical integration, architecture, and operational controls.
+
+- TPRM (ICT): coordinates due diligence, risk assessments, and ongoing monitoring; maintains third-party inventory.
+
+- Information Security: performs security assessment and defines security requirements; reviews high-risk findings.
+
+- Procurement and Legal: ensures contracts include required clauses; manages negotiation and supplier obligations.
+
+- Continuity/Resilience Team: assesses resilience, exit planning, and recovery capabilities for critical services.
+
+4. Third-Party Classification and Criticality
+
+Third parties must be classified based on:
+
+- Data sensitivity: whether Confidential or Restricted data is processed.
+
+- Service criticality: whether the service supports critical banking functions (payments, authentication, customer channels).
+
+- Connectivity: network integration depth and remote access requirements.
+
+- Replaceability and concentration: ease of switching, market availability, dependency level.
+
+Critical third parties require enhanced due diligence, resilience assessment, and executive
+oversight.
+
+5. Due Diligence and Pre-Contract Assessment
+
+Minimum due diligence steps:
+
+1) Supplier questionnaire covering security governance, controls, and operational practices.
+
+2) Review of assurance reports (e.g., SOC 2 Type II, ISO 27001 certificates) where available.
+
+3) Assessment of data handling practices, encryption, access controls, and incident response/breach notification.
+
+4) Review of subcontracting arrangements and data location/processing locations.
+
+5) Financial and operational stability assessment for critical providers.
+
+6) Assessment of regulatory constraints and required approvals (where applicable).
+
+High-risk engagements may require onsite assessment, penetration testing evidence, or
+additional assurance activities.
+
+6. Security and Architecture Assessment
+
+Information Security and ICT architecture must assess:
+
+- Authentication and access control model (MFA, SSO, privileged access controls).
+
+- Network integration and segmentation requirements.
+
+- Data protection (encryption in transit/at rest, key management, data segregation).
+
+- Logging, monitoring, and auditability (availability of logs, APIs for integration).
+
+- Vulnerability management and patching practices.
+
+- Secure SDLC maturity (for software providers).
+
+Identified gaps must be documented with remediation commitments and deadlines prior to
+onboarding where feasible.
+
+7. Contractual Requirements (Minimum Clauses)
+
+Contracts for ICT third parties must include (as applicable):
+
+- Confidentiality and data protection obligations aligned to CBG classification.
+
+- Right to audit and/or access to independent assurance reports.
+
+- Incident and breach notification timelines and cooperation obligations.
+
+- Subcontractor controls and approval requirements.
+
+- Service levels, availability commitments, and support response times.
+
+- Business continuity and disaster recovery obligations, including test frequency and RTO/RPO where relevant.
+
+- Data return/deletion requirements at termination and during transitions.
+
+- Exit and transition assistance obligations for critical services.
+
+8. Onboarding and Go-Live Controls
+
+Before go-live:
+
+1) Confirm completion of due diligence and risk acceptance for outstanding issues.
+
+2) Ensure security requirements are implemented (MFA, logging, encryption).
+
+3) Validate integration testing, including failure scenarios and recovery procedures.
+
+4) Register the supplier in the third-party inventory with ownership, classification, and review cadence.
+
+5) Establish operational contacts, escalation paths, and incident communication channels.
+
+9. Ongoing Monitoring
+
+Ongoing monitoring must include:
+
+- Annual (or more frequent for critical providers) reassessment of security posture and assurance reports.
+
+- Review of SLA performance and incidents.
+
+- Monitoring of significant changes (subprocessors, platform changes, data location changes).
+
+- Concentration risk monitoring for critical vendors used across multiple services.
+
+Any material adverse findings must be escalated to ICT Risk Management and relevant
+governance committees.
+
+10. Exit Planning and Portability
+
+For critical services, an exit plan is mandatory and must include:
+
+- Data portability mechanisms and formats.
+
+- Technical migration approach (e.g., parallel run, cutover plans).
+
+- Contractual obligations for transition support.
+
+- Backup and contingency measures to reduce lock-in.
+
+Exit plans must be reviewed at least annually and after material changes.
+
+11. Records and Retention
+
+Due diligence artifacts, risk assessments, contracts, and monitoring evidence must be
+retained for audit and regulatory review. Records must be linked to the third-party
+inventory entry and maintained for the required retention period.
+
+12. References
+
+- ICT Risk Management Policy (CBG-RISK-POL-006)
+
+- ICT Security Policy (CBG-SEC-POL-001)
+
+- Data Classification and Handling Policy (CBG-DATA-POL-002)

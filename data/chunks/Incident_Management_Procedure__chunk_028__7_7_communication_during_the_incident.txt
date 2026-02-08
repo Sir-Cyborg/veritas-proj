@@ -1,0 +1,13 @@
+7.7 Communication During the Incident
+Communication must be timely, factual, and consistent.
+- P1: updates every 15–30 minutes (or as agreed by MIM), plus start/end notifications
+- P2: updates every 60 minutes
+- P3/P4: updates at key milestones (assignment, workaround, resolution)
+
+Recommended update format:
+- What is happening (symptoms)
+- What is impacted (services/users/processes)
+- What we are doing (actions underway)
+- Next update time
+
+Do not speculate or assign blame. If external communications may be required, the Communications Office must be engaged via the MIM.

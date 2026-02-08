@@ -1,0 +1,10 @@
+1. Introduction
+
+Access Management ensures that only authorized individuals and services can access CBG
+systems and data, and that such access is appropriate to their job functions. Strong access
+controls reduce the likelihood of unauthorized transactions, data breaches, and operational
+errors.
+
+This procedure defines end-to-end processes for requesting, approving, granting, reviewing,
+and revoking access to ICT resources within Corporate Banking Group (CBG), including
+privileged access and service accounts.

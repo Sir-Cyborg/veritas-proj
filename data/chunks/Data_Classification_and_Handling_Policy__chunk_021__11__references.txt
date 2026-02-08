@@ -1,0 +1,7 @@
+11. References
+
+- ICT Security Policy (CBG-SEC-POL-001)
+
+- Access Management Procedure (CBG-IAM-PROC-006)
+
+- Incident Management Procedure (CBG-INC-PROC-003)

@@ -1,0 +1,6 @@
+9. Third-Party Data Handling
+
+Third parties processing Confidential or Restricted data must meet CBG security
+requirements, including encryption, access controls, logging, and breach notification.
+Contracts must specify data ownership, permitted use, retention, and return or deletion
+obligations at contract end.

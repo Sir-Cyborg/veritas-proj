@@ -1,0 +1,4 @@
+4.4 Cybersecurity Operations Center (SOC)
+- Reviews incidents with potential security implications
+- Triggers security incident handling when indicators of compromise are present
+- Advises on containment, evidence preservation, and regulatory notification triggers

@@ -1,0 +1,15 @@
+5.4 CI/CD Security Controls
+
+CI/CD pipelines must include at minimum:
+
+- Source control protection (branch protection, signed commits or equivalent controls where feasible).
+
+- Secret scanning and prevention of credential leakage.
+
+- Dependency scanning (SCA) for known vulnerabilities.
+
+- Static analysis (SAST) for code security patterns.
+
+- Build integrity controls (controlled runners, artifact signing where applicable).
+
+- Deployment approvals and segregation of duties for production.

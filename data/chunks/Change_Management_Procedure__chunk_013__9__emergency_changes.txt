@@ -1,0 +1,17 @@
+9. Emergency Changes
+
+Emergency changes may be initiated for:
+
+- P1 incidents requiring immediate restoration.
+
+- Critical vulnerabilities requiring urgent mitigation.
+
+Emergency change requirements:
+
+- Document rationale and risk assessment (brief but explicit).
+
+- Obtain expedited approval from authorized approver(s) (on-call manager/service owner).
+
+- Execute with enhanced monitoring and maintain a clear rollback plan.
+
+- Conduct a post-implementation review within 5 business days to validate controls and prevent recurrence.

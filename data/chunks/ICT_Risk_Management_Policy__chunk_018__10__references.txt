@@ -1,0 +1,9 @@
+10. References
+
+- ICT Security Policy (CBG-SEC-POL-001)
+
+- Third-Party ICT Risk Assessment Procedure (CBG-TPRM-PROC-009)
+
+- Change Management Procedure (CBG-CHG-PROC-002)
+
+- Backup and Disaster Recovery Procedure (CBG-DR-PROC-010)

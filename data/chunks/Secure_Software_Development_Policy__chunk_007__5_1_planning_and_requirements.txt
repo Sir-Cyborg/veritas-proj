@@ -1,0 +1,5 @@
+5.1 Planning and Requirements
+
+Security requirements must be defined for each product based on data classification,
+customer impact, and regulatory needs. High-risk applications must document security
+requirements for authentication, authorization, auditability, encryption, and resilience.

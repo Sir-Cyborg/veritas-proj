@@ -1,0 +1,154 @@
+ICT RISK MANAGEMENT POLICY
+Corporate Banking Group (CBG)
+ICT Risk Management Division
+
+Document Classification: Internal
+Owner: Head of ICT Risk Management
+Approved by: Chief Risk Officer (CRO); CIO, Corporate Banking Group
+Effective Date: 2026-01-05
+Review Cycle: Annual
+Version: 1.0
+
+Document Control
+- 1.0 (2026-01-05): Initial release defining ICT risk governance, assessment, and reporting requirements.
+
+1. Introduction
+
+ICT risk is the risk of financial loss, service disruption, regulatory breach, or
+reputational damage resulting from inadequate or failed internal processes, people, systems,
+or from external events affecting ICT. In a banking context, ICT risk management must
+support operational resilience, information security, and sound outsourcing practices.
+
+This policy defines the governance model, minimum processes, and reporting requirements for
+identifying, assessing, treating, monitoring, and reporting ICT risk within Corporate
+Banking Group (CBG).
+
+2. Objectives
+
+The objectives of this policy are to:
+
+- Ensure ICT risks are identified and assessed consistently using a common taxonomy and methodology.
+
+- Align ICT risk treatment with CBG risk appetite and operational resilience objectives.
+
+- Support regulatory expectations for ICT and third-party risk management and audit readiness.
+
+- Provide management with timely visibility into key ICT risk exposures, control effectiveness, and remediation status.
+
+3. Scope
+
+This policy applies to:
+
+- All ICT services, applications, infrastructure components, and supporting processes used by CBG.
+
+- All change programs and projects introducing new technology or materially changing existing services.
+
+- All third-party ICT services and outsourcing arrangements, including cloud and managed services.
+
+The policy covers risks related to information security, availability, continuity, change
+and release, data management, technology obsolescence, and supplier dependency.
+
+4. Risk Governance
+
+4.1 Three Lines of Defense (3LoD)
+
+CBG adopts a three lines of defense model for ICT risk:
+
+- First line (ICT delivery and operations): owns risks and controls; implements remediation.
+
+- Second line (ICT Risk Management and Information Security): defines methodology, challenges assessments, monitors compliance.
+
+- Third line (Internal Audit): provides independent assurance on the effectiveness of controls and governance.
+
+4.2 Committees and Reporting
+
+ICT Risk Management reports key risk indicators (KRIs), top risks, and remediation progress
+to the Operational Risk Committee and relevant technology governance forums at least
+monthly. Material risks are escalated promptly.
+
+5. Risk Management Lifecycle Requirements
+
+5.1 Identification
+
+Risks must be identified via multiple sources including architecture reviews, threat
+modeling, incident/problem trends, vulnerability findings, audit issues, supplier
+assessments, and business impact analyses.
+
+5.2 Assessment
+
+Risks must be assessed for inherent risk and residual risk. Assessment must consider
+likelihood and impact across dimensions relevant to banking: customer harm, financial loss,
+regulatory impact, data confidentiality/integrity, and service availability.
+
+5.3 Treatment
+
+Treatment options include mitigate, transfer, avoid, and accept. Mitigations must be
+documented as control improvements or remediation actions with owners, deadlines, and
+measurable outcomes.
+
+5.4 Monitoring and Review
+
+Risks must be reviewed at least quarterly, or more frequently for high residual risks. Risk
+status must be updated based on control changes, new threats, incident trends, and supplier
+performance.
+
+5.5 Reporting
+
+Management reporting must include: top risks by service/domain, overdue remediation actions,
+risk acceptances and expiries, key KRIs (e.g., patch compliance, critical vulnerabilities,
+major incidents, resilience test results), and concentration risks related to critical
+suppliers.
+
+6. Risk Appetite and Acceptance
+
+CBG defines ICT risk appetite through quantitative and qualitative statements approved by
+executive management. ICT Risk Management must translate risk appetite into operational
+thresholds (e.g., maximum time-to-patch for critical systems, maximum allowed unsupported
+software, acceptable downtime) and ensure those thresholds are embedded into standards and
+operational dashboards.
+
+Risk acceptance must be time-bound and supported by a clear rationale. For high residual
+risks affecting critical services, acceptance requires approval at an appropriate senior
+level and evidence that compensating controls have been evaluated.
+
+7. Key ICT Risk Domains and Minimum Controls
+
+CBG maintains a risk taxonomy that includes (at minimum) the following domains and expected
+controls:
+
+- Cybersecurity risk: identity controls, hardening, vulnerability management, monitoring, incident response.
+
+- Resilience and continuity risk: backup/recovery, disaster recovery testing, capacity management, high availability architecture.
+
+- Change and release risk: change governance, segregation of duties, testing, rollback plans, emergency change control.
+
+- Data risk: classification, retention, encryption, data loss prevention, integrity controls for transactional data.
+
+- Obsolescence risk: lifecycle management, upgrade planning, vendor supportability tracking.
+
+- Third-party risk: due diligence, contract controls, exit planning, concentration management.
+
+8. Documentation and Evidence
+
+Risk assessments must be recorded in the risk register or approved tooling. Each high or
+critical risk must have supporting evidence, including control descriptions, test results
+where applicable, and linkage to incidents, vulnerabilities, changes, and audit findings.
+Evidence must be retained according to record retention requirements and be accessible for
+audits and regulatory inspections.
+
+9. Non-Compliance
+
+Non-compliance with this policy must be documented and remediated. Repeated non-compliance
+may result in escalation to the CIO and CRO and may trigger enhanced monitoring or audit
+review. Where non-compliance increases risk beyond appetite, compensating controls or
+service restrictions may be required.
+
+10. References
+
+- ICT Security Policy (CBG-SEC-POL-001)
+
+- Third-Party ICT Risk Assessment Procedure (CBG-TPRM-PROC-009)
+
+- Change Management Procedure (CBG-CHG-PROC-002)
+
+- Backup and Disaster Recovery Procedure (CBG-DR-PROC-010)

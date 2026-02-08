@@ -1,0 +1,14 @@
+8.2 Disaster Recovery Exercises
+
+DR exercises must be conducted at least annually for critical services and must include
+failover/failback where feasible. Exercises must test:
+
+- Technical failover processes and runbooks.
+
+- Access and authentication in DR environments.
+
+- Data integrity and application functionality validation steps.
+
+- Communications and decision-making processes.
+
+Failed tests or unmet objectives must result in remediation actions tracked to closure.

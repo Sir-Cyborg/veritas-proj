@@ -1,0 +1,13 @@
+4. Roles and Responsibilities
+
+- Requestor: initiates an access request and provides justification and required scope.
+
+- Line Manager: validates business need and approves request for their direct reports or contractors.
+
+- System/Service Owner: approves access to their system and validates role alignment and SoD requirements.
+
+- IAM Team: configures access, ensures policy compliance, and maintains identity lifecycle processes.
+
+- SOC: monitors privileged activity and investigates anomalies.
+
+- ICT Risk Management: reviews exceptions, SoD conflicts, and high-risk access patterns.

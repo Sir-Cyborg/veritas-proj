@@ -1,0 +1,12 @@
+3. Scope
+
+This policy applies to:
+
+- All ICT services, applications, infrastructure components, and supporting processes used by CBG.
+
+- All change programs and projects introducing new technology or materially changing existing services.
+
+- All third-party ICT services and outsourcing arrangements, including cloud and managed services.
+
+The policy covers risks related to information security, availability, continuity, change
+and release, data management, technology obsolescence, and supplier dependency.

@@ -1,0 +1,2 @@
+3.2 Service Request
+A user request for information, advice, access, or a standard change (e.g., password reset). Service Requests follow Request Fulfillment and must not be handled as Incidents unless there is unexpected service degradation.

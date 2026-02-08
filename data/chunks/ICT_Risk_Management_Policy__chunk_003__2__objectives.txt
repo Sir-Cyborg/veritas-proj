@@ -1,0 +1,11 @@
+2. Objectives
+
+The objectives of this policy are to:
+
+- Ensure ICT risks are identified and assessed consistently using a common taxonomy and methodology.
+
+- Align ICT risk treatment with CBG risk appetite and operational resilience objectives.
+
+- Support regulatory expectations for ICT and third-party risk management and audit readiness.
+
+- Provide management with timely visibility into key ICT risk exposures, control effectiveness, and remediation status.

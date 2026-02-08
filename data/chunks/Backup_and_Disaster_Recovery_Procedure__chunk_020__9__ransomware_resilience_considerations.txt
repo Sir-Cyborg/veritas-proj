@@ -1,0 +1,11 @@
+9. Ransomware Resilience Considerations
+
+For ransomware scenarios, additional controls may be required:
+
+- Offline or immutable backups for critical datasets.
+
+- Segregated backup networks and restricted administrative access.
+
+- Monitoring for mass deletion, encryption patterns, or abnormal backup job behavior.
+
+- Recovery playbooks that include containment steps and evidence preservation.

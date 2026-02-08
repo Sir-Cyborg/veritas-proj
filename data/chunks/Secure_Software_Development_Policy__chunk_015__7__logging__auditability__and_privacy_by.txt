@@ -1,0 +1,8 @@
+7. Logging, Auditability, and Privacy-by-Design
+
+Applications must generate audit logs for security-relevant and business-critical events
+such as authentication, authorization decisions, privilege changes, payment initiation and
+approval workflows, and administrative actions. Logs must avoid collecting unnecessary
+personal data and must follow data minimization principles. When personal data is processed,
+privacy considerations must be incorporated into design (purpose limitation, retention,
+access controls).

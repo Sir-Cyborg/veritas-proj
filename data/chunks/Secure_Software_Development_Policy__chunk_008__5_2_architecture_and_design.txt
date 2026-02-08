@@ -1,0 +1,12 @@
+5.2 Architecture and Design
+
+Threat modeling is required for new applications and significant changes to critical
+services. Architecture must include:
+
+- Identity and access patterns (MFA, service-to-service authentication, token scopes).
+
+- Data protection mechanisms (encryption, tokenization where applicable).
+
+- Logging and monitoring requirements for fraud/security detection.
+
+- Resilience patterns (rate limiting, circuit breakers, failover, idempotency for transactional flows).

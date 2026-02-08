@@ -1,0 +1,11 @@
+6. Risk Appetite and Acceptance
+
+CBG defines ICT risk appetite through quantitative and qualitative statements approved by
+executive management. ICT Risk Management must translate risk appetite into operational
+thresholds (e.g., maximum time-to-patch for critical systems, maximum allowed unsupported
+software, acceptable downtime) and ensure those thresholds are embedded into standards and
+operational dashboards.
+
+Risk acceptance must be time-bound and supported by a clear rationale. For high residual
+risks affecting critical services, acceptance requires approval at an appropriate senior
+level and evidence that compensating controls have been evaluated.

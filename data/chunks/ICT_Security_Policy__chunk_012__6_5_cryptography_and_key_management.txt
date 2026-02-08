@@ -1,0 +1,5 @@
+6.5 Cryptography and Key Management
+
+Sensitive data must be protected in transit using strong, modern encryption. Sensitive data
+at rest must be encrypted where feasible. Cryptographic keys must be managed using approved
+key management services, with access restrictions, rotation, backup, and logging.

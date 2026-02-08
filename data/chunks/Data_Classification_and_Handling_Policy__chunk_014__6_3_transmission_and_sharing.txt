@@ -1,0 +1,6 @@
+6.3 Transmission and Sharing
+
+Confidential and Restricted data sharing must use approved secure channels. Emailing
+Restricted data is prohibited unless approved secure encryption mechanisms are used and the
+Data Owner approves. Sharing with third parties requires contract controls and due
+diligence.

@@ -1,0 +1,6 @@
+8. Open Source and Third-Party Components
+
+Third-party components must be approved according to internal governance. Teams must
+maintain an inventory (Software Bill of Materials, where feasible) and monitor for
+vulnerabilities and license constraints. Critical vulnerabilities must be remediated
+promptly by upgrading, patching, or replacing components.

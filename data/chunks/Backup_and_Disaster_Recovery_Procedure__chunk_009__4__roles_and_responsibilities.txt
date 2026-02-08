@@ -1,0 +1,11 @@
+4. Roles and Responsibilities
+
+- Service Owner: defines business requirements, including RTO/RPO; ensures DR plans exist and tests are executed.
+
+- Infrastructure Resilience Team: operates backup platforms, validates backups, and coordinates DR exercises.
+
+- Application Teams: ensure application-level backup consistency, participate in recovery tests, and validate business functionality after recovery.
+
+- Information Security: defines ransomware-resilient backup requirements and monitors control effectiveness.
+
+- ICT Risk Management: monitors resilience risks and tracks remediation actions for failed tests or gaps.

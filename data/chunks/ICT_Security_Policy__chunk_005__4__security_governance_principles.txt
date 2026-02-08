@@ -1,0 +1,16 @@
+4. Security Governance Principles
+
+CBG adopts a defense-in-depth security model, combining preventive, detective, and
+corrective controls. Security is a shared responsibility across ICT functions, with clear
+accountability for control ownership and risk acceptance. The following principles are
+mandatory:
+
+- Least privilege: access is limited to what is needed for approved business tasks.
+
+- Secure by default: baseline configurations must be hardened; insecure defaults are prohibited.
+
+- Segregation of duties: critical actions (e.g., deployment approvals, privileged access grants) must be separated.
+
+- Accountability and traceability: actions on systems and data must be logged and attributable to an individual identity.
+
+- Resilience: systems must be designed and operated to withstand failures and recover within defined objectives.

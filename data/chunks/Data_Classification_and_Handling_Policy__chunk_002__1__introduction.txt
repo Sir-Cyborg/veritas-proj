@@ -1,0 +1,10 @@
+1. Introduction
+
+Corporate Banking Group (CBG) processes a wide range of information, including customer
+data, financial transactions, trading positions, internal strategy documents, and technical
+information. Data must be managed and protected according to its sensitivity, business
+value, and regulatory requirements.
+
+This policy defines data classification levels and the minimum handling requirements for
+each level to protect confidentiality, integrity, and availability. It supports consistent
+controls across ICT systems, business processes, and supplier arrangements.

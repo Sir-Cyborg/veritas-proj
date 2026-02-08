@@ -1,0 +1,4 @@
+3.3 Emergency Change
+
+A change that must be implemented urgently to restore service or address a critical security
+risk. Emergency changes require expedited approval and post-implementation review.

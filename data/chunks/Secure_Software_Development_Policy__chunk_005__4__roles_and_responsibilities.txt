@@ -1,0 +1,13 @@
+4. Roles and Responsibilities
+
+- Product/Service Owner: accountable for business risk decisions and prioritization of remediation work.
+
+- Engineering Manager: ensures the team follows this policy and maintains secure delivery practices.
+
+- Developers: implement secure coding practices, fix findings, and maintain dependency health.
+
+- Security Champions: act as embedded security contacts within teams; assist with threat modeling and triage.
+
+- Application Security (AppSec): provides standards, tools, training, and performs assurance activities.
+
+- Platform/DevOps Team: ensures CI/CD and runtime platforms enforce baseline controls.

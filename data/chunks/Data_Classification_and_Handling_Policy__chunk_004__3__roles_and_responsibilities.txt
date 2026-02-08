@@ -1,0 +1,11 @@
+3. Roles and Responsibilities
+
+- Data Owner: accountable for classification, access rules, and retention decisions for a dataset or information domain.
+
+- Data Custodian (often ICT): implements technical controls in systems storing/processing the data.
+
+- Users: handle data according to classification and report misclassification or mishandling.
+
+- Information Security: defines protective control expectations and monitors compliance.
+
+- Compliance/Legal: interprets regulatory and contractual requirements.

@@ -1,0 +1,15 @@
+2. Scope
+
+This procedure applies to changes affecting:
+
+- Production systems and services.
+
+- Shared platforms (identity, network, databases, monitoring).
+
+- Security controls and configurations (firewall rules, IAM policies).
+
+- Cloud infrastructure and infrastructure-as-code deployments.
+
+Routine operational activities that do not change state (e.g., log review) are not changes.
+Patching, configuration adjustments, and deployments are changes and must follow this
+procedure.

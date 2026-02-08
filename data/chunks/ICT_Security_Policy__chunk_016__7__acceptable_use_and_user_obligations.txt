@@ -1,0 +1,13 @@
+7. Acceptable Use and User Obligations
+
+Users must:
+
+- Use CBG resources for approved business purposes.
+
+- Protect credentials and never share passwords or MFA tokens.
+
+- Lock screens when unattended and use approved devices for sensitive work.
+
+- Store data only in approved repositories and follow data handling rules.
+
+- Report suspected phishing, malware, data loss, or security incidents immediately to the Service Desk or SOC.

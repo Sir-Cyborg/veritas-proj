@@ -1,0 +1,11 @@
+10. References
+
+- Data Classification and Handling Policy (CBG-DATA-POL-002)
+
+- Vulnerability Management Procedure (CBG-VULN-PROC-004)
+
+- Access Management Procedure (CBG-IAM-PROC-006)
+
+- Secure Software Development Policy (CBG-SSDLC-POL-007)
+
+- Security Incident Handling Standard (CBG-SOC-STD-005)

@@ -1,0 +1,9 @@
+8.1 Routine Restore Tests
+
+Service Owners must ensure periodic restore tests are performed. Minimum frequency:
+
+- Critical services: quarterly restore tests.
+
+- Non-critical services: at least annually.
+
+Restore tests must validate that backups are usable and that RPO/RTO targets are feasible.

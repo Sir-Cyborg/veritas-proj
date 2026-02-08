@@ -1,0 +1,5 @@
+6.1 Asset Inventory and Classification
+
+All ICT assets must be inventoried and assigned an owner. Information assets must be
+classified according to the Data Classification Policy, and systems must inherit security
+controls based on the highest classification processed.

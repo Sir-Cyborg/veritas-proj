@@ -1,2 +1,0 @@
-5.4 Implementation
-Approved changes must be implemented according to the approved plan.

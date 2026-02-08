@@ -1,6 +1,0 @@
-2. Purpose
-
-The purpose of this procedure is to:
-- Reduce the introduction of security vulnerabilities during development
-- Ensure consistent implementation of security controls
-- Support compliance with internal and regulatory security requirements

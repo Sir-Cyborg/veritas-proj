@@ -1,6 +1,0 @@
-1. Introduction
-
-Cyber incidents may impact the confidentiality, integrity, or availability
-of information systems and data.
-
-This policy defines the approach to manage and respond to cyber incidents.

@@ -1,0 +1,5 @@
+5.4 Monitoring and Review
+
+Risks must be reviewed at least quarterly, or more frequently for high residual risks. Risk
+status must be updated based on control changes, new threats, incident trends, and supplier
+performance.

@@ -1,0 +1,2 @@
+3.2 Privileged Access: access that allows administrative control, elevated permissions, or
+the ability to bypass standard controls.

@@ -1,0 +1,13 @@
+BACKUP AND DISASTER RECOVERY PROCEDURE
+Corporate Banking Group (CBG)
+Infrastructure & Resilience
+
+Document Classification: Internal
+Owner: Head of Infrastructure Resilience
+Approved by: CIO; Chief Risk Officer (CRO)
+Effective Date: 2026-01-25
+Review Cycle: Annual
+Version: 1.0
+
+Document Control
+- 1.0 (2026-01-25): Initial release defining backup standards, recovery testing, and disaster recovery governance.

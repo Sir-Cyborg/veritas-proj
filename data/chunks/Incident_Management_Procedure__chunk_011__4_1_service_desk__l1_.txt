@@ -1,0 +1,5 @@
+4.1 Service Desk (L1)
+- Receives incident reports via phone, portal, email, or monitoring alerts
+- Logs, categorizes, and prioritizes incidents
+- Performs initial diagnosis and applies known resolutions or workarounds
+- Escalates to L2/L3 when necessary and maintains user communications

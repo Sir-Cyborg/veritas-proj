@@ -1,0 +1,2 @@
+3.2 RPO (Recovery Point Objective): the maximum tolerable period in which data might be lost
+due to a disruption.

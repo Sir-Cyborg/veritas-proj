@@ -1,0 +1,5 @@
+6.5 Logging and Monitoring
+
+Systems handling Confidential and Restricted data must generate audit logs for access and
+key changes. Restricted data systems require enhanced monitoring for anomalous access
+patterns.

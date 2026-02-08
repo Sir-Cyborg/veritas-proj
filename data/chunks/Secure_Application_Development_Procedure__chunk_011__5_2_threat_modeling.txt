@@ -1,7 +1,0 @@
-5.2 Threat Modeling
-For medium and high criticality applications:
-- A threat modeling session must be performed
-- Potential attack vectors must be identified
-- Mitigation strategies must be documented
-
-Threat models must be reviewed by the Application Security Team.

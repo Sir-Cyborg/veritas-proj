@@ -1,0 +1,2 @@
+3.4 Segregation of Duties (SoD): splitting critical tasks across roles to prevent fraud or
+errors.

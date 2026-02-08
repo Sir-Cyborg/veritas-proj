@@ -1,0 +1,5 @@
+8.1 Closure Codes
+- Resolved (permanent fix applied)
+- Resolved with Workaround (temporary mitigation in place; problem record required)
+- Duplicate (linked to primary incident)
+- False Positive (monitoring or report invalidated)

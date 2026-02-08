@@ -1,0 +1,7 @@
+13. References
+
+- Incident Management Procedure (CBG-INC-PROC-003)
+
+- Vulnerability Management Procedure (CBG-VULN-PROC-004)
+
+- Secure Software Development Policy (CBG-SSDLC-POL-007)

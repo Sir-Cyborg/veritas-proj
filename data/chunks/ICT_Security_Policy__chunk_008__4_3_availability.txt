@@ -1,2 +1,0 @@
-4.3 Availability
-Systems and data must be available according to business continuity requirements.

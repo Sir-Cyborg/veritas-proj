@@ -1,0 +1,7 @@
+5.1 Joiner Process
+
+1) HR triggers identity creation upon onboarding approval.
+
+2) IAM provisions a unique user identity, assigns baseline access (email, collaboration tools), and enforces MFA enrollment.
+
+3) Additional access requires a formal request per Section 6.

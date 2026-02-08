@@ -1,0 +1,13 @@
+DATA CLASSIFICATION AND HANDLING POLICY
+Corporate Banking Group (CBG)
+Data Governance Office
+
+Document Classification: Internal
+Owner: Chief Data Officer (CDO)
+Approved by: Chief Risk Officer (CRO); CISO; Chief Compliance Officer
+Effective Date: 2026-01-08
+Review Cycle: Annual
+Version: 1.0
+
+Document Control
+- 1.0 (2026-01-08): Initial release establishing data classification levels and handling requirements.

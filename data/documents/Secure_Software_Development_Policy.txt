@@ -1,0 +1,166 @@
+SECURE SOFTWARE DEVELOPMENT POLICY
+Corporate Banking Group (CBG)
+Software Engineering Governance
+
+Document Classification: Internal
+Owner: Head of Software Engineering Governance
+Approved by: CIO; CISO; Head of Application Development
+Effective Date: 2026-01-12
+Review Cycle: Annual
+Version: 1.0
+
+Document Control
+- 1.0 (2026-01-12): Initial release establishing secure SDLC requirements across CBG software delivery.
+
+1. Introduction
+
+Software delivered by Corporate Banking Group (CBG) enables critical customer and internal
+processes, including payments, lending, onboarding, and reporting. Security defects in
+software can lead to fraud, data breaches, regulatory breaches, and operational disruption.
+
+This Secure Software Development Policy defines mandatory security requirements to be
+integrated throughout the software development lifecycle (SDLC), from planning and design to
+implementation, testing, deployment, and maintenance. It applies to in-house developed
+software and to externally sourced software where CBG controls configuration or code.
+
+2. Scope
+
+This policy applies to:
+
+- All application teams developing, maintaining, or configuring software used by CBG.
+
+- All code repositories, CI/CD pipelines, build systems, artifact stores, and deployment platforms.
+
+- All software components including APIs, microservices, batch processes, mobile apps, web apps, and infrastructure-as-code (IaC).
+
+For third-party software, the policy applies to configuration, secure deployment, patching,
+and supplier assurance obligations.
+
+3. Principles
+
+CBG follows these secure development principles:
+
+- Security by design: threat modeling and architectural risk controls are addressed early, not after deployment.
+
+- Least privilege and secure defaults: services run with minimal permissions; insecure configurations are prohibited.
+
+- Continuous verification: automated security checks are embedded in pipelines and required for release.
+
+- Dependency hygiene: third-party libraries are managed and updated based on risk.
+
+- Accountability: changes are attributable; approvals and evidence are retained.
+
+4. Roles and Responsibilities
+
+- Product/Service Owner: accountable for business risk decisions and prioritization of remediation work.
+
+- Engineering Manager: ensures the team follows this policy and maintains secure delivery practices.
+
+- Developers: implement secure coding practices, fix findings, and maintain dependency health.
+
+- Security Champions: act as embedded security contacts within teams; assist with threat modeling and triage.
+
+- Application Security (AppSec): provides standards, tools, training, and performs assurance activities.
+
+- Platform/DevOps Team: ensures CI/CD and runtime platforms enforce baseline controls.
+
+5. Minimum SDLC Requirements
+
+5.1 Planning and Requirements
+
+Security requirements must be defined for each product based on data classification,
+customer impact, and regulatory needs. High-risk applications must document security
+requirements for authentication, authorization, auditability, encryption, and resilience.
+
+5.2 Architecture and Design
+
+Threat modeling is required for new applications and significant changes to critical
+services. Architecture must include:
+
+- Identity and access patterns (MFA, service-to-service authentication, token scopes).
+
+- Data protection mechanisms (encryption, tokenization where applicable).
+
+- Logging and monitoring requirements for fraud/security detection.
+
+- Resilience patterns (rate limiting, circuit breakers, failover, idempotency for transactional flows).
+
+5.3 Implementation
+
+Developers must follow approved secure coding standards and avoid prohibited practices such
+as hardcoded secrets, unsafe deserialization, and insecure direct object references. Code
+must be peer-reviewed prior to merge for all repositories.
+
+5.4 CI/CD Security Controls
+
+CI/CD pipelines must include at minimum:
+
+- Source control protection (branch protection, signed commits or equivalent controls where feasible).
+
+- Secret scanning and prevention of credential leakage.
+
+- Dependency scanning (SCA) for known vulnerabilities.
+
+- Static analysis (SAST) for code security patterns.
+
+- Build integrity controls (controlled runners, artifact signing where applicable).
+
+- Deployment approvals and segregation of duties for production.
+
+5.5 Testing and Validation
+
+Security testing must be risk-based. At minimum:
+
+- Automated tests must include security-relevant scenarios (authorization checks, input validation).
+
+- DAST or equivalent runtime testing for internet-facing applications.
+
+- Periodic penetration testing for critical services, and after major changes.
+
+5.6 Release and Deployment
+
+Production releases must be traceable to approved change records and include rollback plans.
+Emergency fixes must follow emergency change controls and be reviewed post-deployment.
+
+5.7 Maintenance
+
+Teams must address vulnerabilities in code and dependencies within defined SLAs and keep
+supported versions of frameworks and runtimes.
+
+6. Secrets and Key Management
+
+Secrets (API keys, passwords, certificates) must not be stored in source code or shared
+channels. Approved secret management solutions must be used. Access to secrets must be
+restricted and audited. Rotation schedules must be defined for privileged credentials and
+high-impact secrets.
+
+7. Logging, Auditability, and Privacy-by-Design
+
+Applications must generate audit logs for security-relevant and business-critical events
+such as authentication, authorization decisions, privilege changes, payment initiation and
+approval workflows, and administrative actions. Logs must avoid collecting unnecessary
+personal data and must follow data minimization principles. When personal data is processed,
+privacy considerations must be incorporated into design (purpose limitation, retention,
+access controls).
+
+8. Open Source and Third-Party Components
+
+Third-party components must be approved according to internal governance. Teams must
+maintain an inventory (Software Bill of Materials, where feasible) and monitor for
+vulnerabilities and license constraints. Critical vulnerabilities must be remediated
+promptly by upgrading, patching, or replacing components.
+
+9. Exceptions and Enforcement
+
+Exceptions to this policy require a documented risk acceptance with an expiry date and
+compensating controls. Non-compliance may lead to release blocking, mandatory remediation
+plans, or restriction of deployment privileges. Material deviations must be reported to ICT
+Risk Management.
+
+10. References
+
+- ICT Security Policy (CBG-SEC-POL-001)
+
+- Vulnerability Management Procedure (CBG-VULN-PROC-004)
+
+- Change Management Procedure (CBG-CHG-PROC-002)

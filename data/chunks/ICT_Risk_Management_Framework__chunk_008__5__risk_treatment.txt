@@ -1,7 +1,0 @@
-5. Risk Treatment
-
-Identified risks may be:
-- Mitigated through controls
-- Accepted by management
-- Transferred to third parties
-- Avoided by discontinuing activities

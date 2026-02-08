@@ -1,0 +1,5 @@
+11. Change Calendar and Blackout Windows
+
+Changes must be scheduled considering business critical periods (e.g., month-end close,
+regulatory reporting windows). Blackout windows must be defined and enforced for critical
+systems. Exceptions require senior approval and enhanced controls.

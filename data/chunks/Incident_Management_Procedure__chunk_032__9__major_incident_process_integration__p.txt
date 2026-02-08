@@ -1,0 +1,16 @@
+9. Major Incident Process Integration (P1)
+When an incident is declared P1:
+1) Appoint a Major Incident Manager (MIM) immediately.
+2) Start an incident bridge call (conference link) and invite required teams.
+3) Create a shared timeline (single source of truth in ITSM ticket + collaboration channel).
+4) Initiate stakeholder communications cadence.
+5) Consider invoking Business Continuity if:
+   - Outage exceeds predefined RTO thresholds
+   - Multiple critical services are affected
+   - There is risk of market/operational instability
+
+Major incident declaration criteria (examples):
+- Authentication unavailable for a large portion of customers
+- Payment processing halted or failing beyond threshold
+- Critical regulatory reporting service unavailable near deadline
+- Data integrity risk identified (e.g., duplicate postings, incorrect balances)

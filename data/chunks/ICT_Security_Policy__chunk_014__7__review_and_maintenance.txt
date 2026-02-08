@@ -1,4 +1,0 @@
-7. Review and Maintenance
-
-This policy is reviewed annually or upon significant changes in the threat landscape
-or regulatory requirements.

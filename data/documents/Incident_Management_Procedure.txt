@@ -1,0 +1,289 @@
+INCIDENT MANAGEMENT PROCEDURE
+Corporate Banking Group (CBG)
+IT Service Management Office (ITSM)
+
+Document Classification: Internal
+Owner: Head of Incident & Problem Management
+Approved by: CIO, Corporate Banking Group
+Effective Date: 2026-01-15
+Review Cycle: Annual
+Version: 1.0
+
+Document Control
+- 1.0 (2026-01-15): Initial release aligned to ITIL-based practices and internal security requirements.
+
+
+1. Introduction
+Corporate Banking Group (CBG) relies on stable, secure, and resilient Information and Communication Technology (ICT) services to deliver banking products, process payments, and protect client data. This Incident Management Procedure defines the operational steps, roles, decision points, and records required to restore normal service operation as quickly as possible following an unplanned interruption or reduction in service quality.
+
+Incident Management is focused on rapid restoration and minimizing business impact. Root cause analysis and long-term remediation are managed through Problem Management, although Incident Management must capture adequate information to enable downstream investigation.
+
+This procedure applies to incidents impacting:
+- Core banking applications and APIs
+- Customer-facing digital channels (online banking, mobile apps)
+- End-user computing (EUC) services
+- Infrastructure (network, servers, storage)
+- Cloud services and third-party managed platforms
+- Security monitoring and identity systems
+
+
+2. Scope and Applicability
+This procedure applies to:
+- All CBG employees and contractors who detect, report, diagnose, resolve, or communicate ICT incidents
+- The Service Desk (L1), Operations (L2), Engineering and Product Teams (L3), Cybersecurity Operations, and Vendor Support
+- Incidents occurring in production and pre-production environments if they affect production-like services or regulated processing
+
+This procedure does not replace:
+- Major Incident Communication Plan (referenced in Section 9 for integration)
+- Crisis Management and Business Continuity procedures (invoked for severe, prolonged, or multi-system outages)
+
+
+3. Definitions
+3.1 Incident
+An unplanned interruption to an ICT service or a reduction in the quality of an ICT service. Failures of components not yet affecting service may also be classified as incidents if action is required to prevent impact.
+
+3.2 Service Request
+A user request for information, advice, access, or a standard change (e.g., password reset). Service Requests follow Request Fulfillment and must not be handled as Incidents unless there is unexpected service degradation.
+
+3.3 Major Incident
+An incident with significant business impact requiring accelerated coordination, enhanced communications, and executive visibility.
+
+3.4 Workaround
+A temporary solution that reduces or eliminates the impact of an incident without resolving the underlying cause.
+
+3.5 Service Owner
+Accountable leader for a given service, responsible for prioritization, risk acceptance decisions (where applicable), and ensuring post-incident actions are executed.
+
+
+4. Roles and Responsibilities
+4.1 Service Desk (L1)
+- Receives incident reports via phone, portal, email, or monitoring alerts
+- Logs, categorizes, and prioritizes incidents
+- Performs initial diagnosis and applies known resolutions or workarounds
+- Escalates to L2/L3 when necessary and maintains user communications
+
+4.2 Operations Teams (L2)
+- Conduct deeper diagnosis for infrastructure, platform, and operations issues
+- Coordinate with vendor support for managed services
+- Implement approved remediation steps within defined access and change constraints
+
+4.3 Engineering / Product Teams (L3)
+- Diagnose application defects, performance issues, deployment incidents
+- Provide hotfixes or rollbacks following Emergency Change controls
+- Support incident bridge calls for major incidents
+
+4.4 Cybersecurity Operations Center (SOC)
+- Reviews incidents with potential security implications
+- Triggers security incident handling when indicators of compromise are present
+- Advises on containment, evidence preservation, and regulatory notification triggers
+
+4.5 Major Incident Manager (MIM)
+- Leads major incident coordination, including bridge calls, task assignment, timelines
+- Ensures communications cadence and stakeholder alignment
+- Confirms restoration, coordinates closure criteria, and schedules the post-incident review
+
+4.6 Business Stakeholders / Service Owners
+- Provide impact assessment (customer impact, revenue impact, operational impact)
+- Approve business-impacting mitigations (e.g., disabling a feature, throttling traffic)
+- Participate in post-incident review and action follow-up
+
+
+5. Incident Logging and Minimum Data Requirements
+All incidents must be recorded in the ITSM tool. Minimum required fields:
+- Unique Incident ID
+- Date/time reported and detection source (user, monitoring, vendor, SOC)
+- Affected service(s) and configuration item(s), where known
+- Description of symptoms and observed errors (include screenshots or logs when possible)
+- Impact statement and affected user groups (e.g., “payment confirmation failing for retail customers”)
+- Urgency statement (time sensitivity, regulatory deadlines, peak hours)
+- Initial categorization (application, network, identity, EUC, third-party, security-related)
+- Assignee group and escalation history
+- Chronology (time-stamped actions, communications, and decisions)
+
+For monitoring-generated incidents, include:
+- Alert name and threshold
+- Runbook link (if applicable)
+- Correlation IDs, traces, and dashboards
+
+
+6. Categorization and Prioritization
+6.1 Impact and Urgency Model
+Priority is determined by combining impact and urgency, using the table below as guidance.
+
+Impact Levels
+- High: Widespread outage or critical function unavailable (payments, authentication, trading, regulatory reporting)
+- Medium: Partial degradation affecting a significant user segment or business process
+- Low: Limited impact with workaround available; few users affected
+
+Urgency Levels
+- High: Immediate action required to prevent financial loss, regulatory breach, or severe customer harm
+- Medium: Action required within business day to prevent escalation
+- Low: Can be addressed within standard operational windows
+
+6.2 Severity / Priority Definitions (Standard)
+- P1 (Critical): Major Incident. Severe business impact, widespread customer impact, or critical service unavailable.
+- P2 (High): Significant impact but not fully critical; multiple teams may be required.
+- P3 (Medium): Moderate impact or localized degradation; standard escalation.
+- P4 (Low): Minor issue; informational; minimal business impact.
+
+Note: If any security implications exist, the SOC must be notified immediately regardless of P-level.
+
+
+7. Incident Handling Workflow
+7.1 Detection and Recording
+1) Detect incident (user report, monitoring alert, vendor notification, SOC finding).
+2) Log incident in ITSM tool with minimum data.
+3) Acknowledge receipt to reporter (if user-reported) and provide Incident ID.
+
+7.2 Initial Assessment and Diagnosis (L1)
+1) Confirm the incident is not a standard service request.
+2) Identify service affected, scope, and initial impact.
+3) Consult knowledge base and runbooks for known issues.
+4) Attempt safe first-line actions (e.g., restart user session, clear cache guidance, validate account status).
+5) If resolved, proceed to Section 8 (Closure). If not, escalate.
+
+7.3 Escalation and Assignment
+Escalate when:
+- No known resolution/workaround exists
+- L1 diagnostics indicate system-level issue
+- Monitoring suggests multi-component failure
+- Incident meets P1/P2 criteria
+Escalation steps:
+1) Assign incident to correct L2/L3 group.
+2) Attach evidence (logs, error messages, monitoring dashboards).
+3) Update users/stakeholders with expected next update time.
+
+7.4 Investigation and Diagnosis (L2/L3)
+1) Confirm reproducibility and scope (single tenant vs multi-tenant; region-specific vs global).
+2) Identify probable component: network, database, identity, API gateway, application release, third-party dependency.
+3) Use observability tools (metrics, logs, tracing) and correlate with recent changes.
+4) Document hypotheses and findings in the incident timeline.
+
+7.5 Containment and Mitigation
+Containment aims to reduce impact quickly while maintaining security and compliance.
+Examples:
+- Traffic throttling or rate limiting
+- Feature flags to disable a failing function
+- Failover to secondary region (if approved and tested)
+- Temporary disablement of non-critical integrations
+Any containment that materially changes production behavior must be recorded and, where required, executed under Emergency Change controls (see Section 10).
+
+7.6 Resolution and Recovery
+1) Implement corrective actions (rollback, hotfix, configuration correction, vendor remediation).
+2) Validate service restoration:
+   - Technical validation (monitoring back to normal, errors reduced)
+   - Business validation (critical transactions confirmed by business/operations)
+3) Ensure backlog processing (e.g., queued payments) is handled safely.
+4) Monitor for a stabilization period appropriate to severity:
+   - P1: minimum 60 minutes post-restoration monitoring unless otherwise agreed
+   - P2: minimum 30 minutes
+   - P3/P4: as needed
+
+7.7 Communication During the Incident
+Communication must be timely, factual, and consistent.
+- P1: updates every 15–30 minutes (or as agreed by MIM), plus start/end notifications
+- P2: updates every 60 minutes
+- P3/P4: updates at key milestones (assignment, workaround, resolution)
+
+Recommended update format:
+- What is happening (symptoms)
+- What is impacted (services/users/processes)
+- What we are doing (actions underway)
+- Next update time
+
+Do not speculate or assign blame. If external communications may be required, the Communications Office must be engaged via the MIM.
+
+
+8. Incident Closure Criteria and Documentation
+An incident may be closed only when:
+- Service is restored and verified (technical + business, as applicable)
+- Affected users are informed (if user-facing)
+- Timeline is complete (key actions and decisions time-stamped)
+- Classification and categorization are accurate
+- Linkages are created:
+  - Related incidents (duplicates)
+  - Related problem record (if recurring or P1/P2)
+  - Related change record (if emergency change executed)
+
+8.1 Closure Codes
+- Resolved (permanent fix applied)
+- Resolved with Workaround (temporary mitigation in place; problem record required)
+- Duplicate (linked to primary incident)
+- False Positive (monitoring or report invalidated)
+
+8.2 Post-Incident Review Triggers
+A post-incident review (PIR) is mandatory for:
+- All P1 incidents
+- P2 incidents with high customer impact or regulatory relevance
+- Any incident with confirmed security implications
+The PIR must capture:
+- Timeline, contributing factors, detection quality, response effectiveness
+- Customer/business impact estimate (where available)
+- Corrective actions and owners with deadlines
+
+
+9. Major Incident Process Integration (P1)
+When an incident is declared P1:
+1) Appoint a Major Incident Manager (MIM) immediately.
+2) Start an incident bridge call (conference link) and invite required teams.
+3) Create a shared timeline (single source of truth in ITSM ticket + collaboration channel).
+4) Initiate stakeholder communications cadence.
+5) Consider invoking Business Continuity if:
+   - Outage exceeds predefined RTO thresholds
+   - Multiple critical services are affected
+   - There is risk of market/operational instability
+
+Major incident declaration criteria (examples):
+- Authentication unavailable for a large portion of customers
+- Payment processing halted or failing beyond threshold
+- Critical regulatory reporting service unavailable near deadline
+- Data integrity risk identified (e.g., duplicate postings, incorrect balances)
+
+
+10. Emergency Change and Access Controls During Incidents
+During incidents, speed must not bypass control requirements:
+- All production changes must be recorded and traceable.
+- Emergency changes require:
+  1) Documented rationale and risk assessment (brief but explicit)
+  2) Approval by authorized approver (on-call manager/service owner)
+  3) Backout plan
+  4) Post-change validation steps
+
+Privileged access must follow:
+- Least privilege and time-bound access where possible
+- Logging of privileged actions
+- Separation of duties (e.g., code author not solely approving deployment in sensitive systems)
+
+
+11. Records, Metrics, and Reporting
+11.1 Mandatory Records
+- Incident ticket with full timeline
+- Associated chat logs or bridge call notes (if P1/P2), stored per retention policy
+- Post-incident report and action tracker (if triggered)
+
+11.2 Key Metrics (Minimum)
+- Mean Time to Acknowledge (MTTA)
+- Mean Time to Restore (MTTR)
+- Incident volume by service and category
+- Percentage of incidents resolved by L1
+- Recurrence rate (incidents linked to same problem)
+- Change-related incident rate (incidents within 24–72 hours of a deployment/change)
+
+Metrics must be reviewed monthly by ITSM governance and shared with service owners.
+
+
+12. Exceptions and Non-Compliance
+Any deviation from this procedure (e.g., unrecorded production change, missing communications for P1) must be:
+- Documented in the incident record
+- Reported to the ITSM governance lead
+- Assessed for control remediation (training, process changes, tooling)
+
+Repeated non-compliance may trigger management escalation and audit review.
+
+
+13. References (Internal)
+- ITSM Policy (CBG-ITSM-POL-001)
+- Major Incident Communication Plan (CBG-ITSM-PLAN-003)
+- Change Management Procedure (CBG-CHG-PROC-002)
+- Security Incident Handling Standard (CBG-SOC-STD-005)
+- Configuration Management Standard (CBG-CMDB-STD-004)

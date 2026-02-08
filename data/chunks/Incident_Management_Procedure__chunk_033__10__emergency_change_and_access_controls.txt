@@ -1,0 +1,13 @@
+10. Emergency Change and Access Controls During Incidents
+During incidents, speed must not bypass control requirements:
+- All production changes must be recorded and traceable.
+- Emergency changes require:
+  1) Documented rationale and risk assessment (brief but explicit)
+  2) Approval by authorized approver (on-call manager/service owner)
+  3) Backout plan
+  4) Post-change validation steps
+
+Privileged access must follow:
+- Least privilege and time-bound access where possible
+- Logging of privileged actions
+- Separation of duties (e.g., code author not solely approving deployment in sensitive systems)

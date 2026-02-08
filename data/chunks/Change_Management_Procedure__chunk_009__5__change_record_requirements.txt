@@ -1,0 +1,19 @@
+5. Change Record Requirements
+
+All changes must be recorded in the ITSM tool and include at minimum:
+
+- Scope and affected services/configuration items.
+
+- Business justification and expected benefits.
+
+- Risk assessment (impact, likelihood, rollback complexity).
+
+- Implementation plan with step-by-step tasks.
+
+- Testing evidence and validation plan.
+
+- Rollback/backout plan and decision criteria for aborting.
+
+- Communication plan and stakeholder notifications.
+
+- Scheduling details and maintenance window alignment.

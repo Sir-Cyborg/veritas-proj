@@ -1,0 +1,10 @@
+8. Incident Closure Criteria and Documentation
+An incident may be closed only when:
+- Service is restored and verified (technical + business, as applicable)
+- Affected users are informed (if user-facing)
+- Timeline is complete (key actions and decisions time-stamped)
+- Classification and categorization are accurate
+- Linkages are created:
+  - Related incidents (duplicates)
+  - Related problem record (if recurring or P1/P2)
+  - Related change record (if emergency change executed)

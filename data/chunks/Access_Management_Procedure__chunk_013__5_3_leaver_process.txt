@@ -1,0 +1,7 @@
+5.3 Leaver Process
+
+1) HR notifies termination date/time. For immediate terminations, notification must be immediate.
+
+2) IAM disables accounts and remote access, revokes tokens, and removes access to critical systems within the defined timelines.
+
+3) Privileged credentials and shared secrets known to the leaver must be rotated as required.

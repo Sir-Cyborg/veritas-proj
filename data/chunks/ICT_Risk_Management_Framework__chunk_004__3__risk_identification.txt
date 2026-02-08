@@ -1,7 +1,0 @@
-3. Risk Identification
-
-ICT risks are identified through:
-- Periodic risk assessments
-- Incident and problem management
-- Audit findings
-- Threat intelligence reports

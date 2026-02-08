@@ -1,0 +1,5 @@
+5.2 Mover Process
+
+1) Role changes must trigger access review and adjustment within 5 business days.
+
+2) Access not required for the new role must be removed promptly.

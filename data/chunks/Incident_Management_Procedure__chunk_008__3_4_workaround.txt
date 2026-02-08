@@ -1,0 +1,2 @@
+3.4 Workaround
+A temporary solution that reduces or eliminates the impact of an incident without resolving the underlying cause.

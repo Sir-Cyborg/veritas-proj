@@ -1,0 +1,12 @@
+6.1 Impact and Urgency Model
+Priority is determined by combining impact and urgency, using the table below as guidance.
+
+Impact Levels
+- High: Widespread outage or critical function unavailable (payments, authentication, trading, regulatory reporting)
+- Medium: Partial degradation affecting a significant user segment or business process
+- Low: Limited impact with workaround available; few users affected
+
+Urgency Levels
+- High: Immediate action required to prevent financial loss, regulatory breach, or severe customer harm
+- Medium: Action required within business day to prevent escalation
+- Low: Can be addressed within standard operational windows

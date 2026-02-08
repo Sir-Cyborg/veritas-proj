@@ -1,0 +1,7 @@
+5. Classification Rules
+
+Data Owners must classify datasets at creation or onboarding into a system. Systems
+processing multiple classifications must apply controls based on the highest classification
+present. Derived data must not be classified lower than its source unless formally approved.
+Aggregation can increase sensitivity; for example, a combined dataset of transactions and
+customer identifiers may be Restricted even if each component dataset is Confidential.

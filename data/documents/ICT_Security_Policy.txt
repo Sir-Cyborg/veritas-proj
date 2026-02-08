@@ -1,65 +1,183 @@
 ICT SECURITY POLICY
-Corporate Banking Group
+Corporate Banking Group (CBG)
+Information Security Office
 
+Document Classification: Internal
+Owner: Chief Information Security Officer (CISO)
+Approved by: CIO, Corporate Banking Group; Chief Risk Officer (CRO)
+Effective Date: 2026-01-10
+Review Cycle: Annual
+Version: 1.0
+
+Document Control
+- 1.0 (2026-01-10): Initial release consolidating baseline security requirements across on-prem and cloud.
 
 1. Introduction
 
-Information and Communication Technology (ICT) systems represent a critical asset for
-Corporate Banking Group. This policy defines the principles and high-level rules governing
-the protection of information systems, digital assets, and data processed by the organization.
+Information and Communication Technology (ICT) systems are critical assets for Corporate
+Banking Group (CBG). These systems enable customer onboarding, payments, lending operations,
+treasury services, regulatory reporting, and internal collaboration. The purpose of this ICT
+Security Policy is to define high-level principles and mandatory security rules for
+protecting information, systems, and services against accidental or malicious loss, misuse,
+disruption, or unauthorized disclosure.
 
-The policy applies to all ICT environments, including on-premise infrastructure, cloud
-services, and third-party managed platforms.
+This policy establishes minimum security requirements for all ICT environments used to
+store, process, or transmit CBG information, including on-premise infrastructure, endpoints,
+cloud services, container platforms, and third-party managed systems. Detailed technical
+standards and procedures (e.g., hardening baselines, patching procedures, incident response
+runbooks) must align to this policy.
 
+2. Purpose and Objectives
 
-2. Purpose
+The objectives of this policy are to:
 
-The purpose of this document is to:
-- Ensure confidentiality, integrity, and availability of information assets
-- Reduce exposure to cyber risks
-- Align ICT security practices with regulatory and supervisory expectations
-- Establish a common security baseline across the organization
+- Protect confidentiality, integrity, and availability of CBG information and services.
 
+- Reduce ICT security risk to a level consistent with CBG risk appetite and regulatory obligations.
+
+- Provide a consistent control baseline across business units, subsidiaries, and outsourced arrangements.
+
+- Ensure that security is integrated into governance, operations, and software delivery.
+
+- Define accountability and enforce compliance through monitoring, reporting, and audit.
 
 3. Scope
 
 This policy applies to:
-- All employees, contractors, and third parties
-- All information systems and applications
-- All data classified as internal, confidential, or restricted
 
+- All employees, contractors, consultants, and temporary staff who access or manage CBG ICT resources.
 
-4. Information Security Principles
+- All information assets, including data, applications, infrastructure, code repositories, and cryptographic keys.
 
-4.1 Confidentiality  
-Access to information must be granted strictly on a need-to-know basis.
+- All service providers that process CBG data or provide ICT services, including SaaS, IaaS, and managed services.
 
-4.2 Integrity  
-Information must be protected against unauthorized modification or destruction.
+This policy also applies to pre-production environments whenever they contain production
+data, confidential test data, or are connected to production networks.
 
-4.3 Availability  
-Systems and data must be available according to business continuity requirements.
+4. Security Governance Principles
 
+CBG adopts a defense-in-depth security model, combining preventive, detective, and
+corrective controls. Security is a shared responsibility across ICT functions, with clear
+accountability for control ownership and risk acceptance. The following principles are
+mandatory:
+
+- Least privilege: access is limited to what is needed for approved business tasks.
+
+- Secure by default: baseline configurations must be hardened; insecure defaults are prohibited.
+
+- Segregation of duties: critical actions (e.g., deployment approvals, privileged access grants) must be separated.
+
+- Accountability and traceability: actions on systems and data must be logged and attributable to an individual identity.
+
+- Resilience: systems must be designed and operated to withstand failures and recover within defined objectives.
 
 5. Roles and Responsibilities
 
-5.1 Board of Directors  
-Provides strategic oversight on ICT and cybersecurity risks.
+Key roles include:
 
-5.2 ICT Security Function  
-Defines security standards, monitors compliance, and manages incidents.
+- CISO: owns this policy, defines security strategy, and reports material security risks to executive management.
 
-5.3 System Owners  
-Ensure security controls are implemented and maintained for assigned systems.
+- ICT Risk Management: maintains ICT risk taxonomy, performs risk assessments, and tracks remediation commitments.
 
+- System and Service Owners: accountable for security controls on their services, including remediation of findings.
 
-6. Policy Compliance
+- Cybersecurity Operations Center (SOC): monitors for threats, performs investigations, and coordinates security incidents.
 
-Non-compliance with this policy may result in disciplinary actions and must be reported
-to the ICT Security Function.
+- Identity and Access Management (IAM): operates access controls, privileged access, and authentication services.
 
+- All Users: must follow acceptable use rules, protect credentials, and report suspected incidents promptly.
 
-7. Review and Maintenance
+6. Mandatory Control Requirements
 
-This policy is reviewed annually or upon significant changes in the threat landscape
-or regulatory requirements.
+6.1 Asset Inventory and Classification
+
+All ICT assets must be inventoried and assigned an owner. Information assets must be
+classified according to the Data Classification Policy, and systems must inherit security
+controls based on the highest classification processed.
+
+6.2 Identity, Authentication, and Access Control
+
+Unique user identities are mandatory. Multi-factor authentication (MFA) is required for
+remote access, privileged access, and access to sensitive data. Shared accounts are
+prohibited except for approved service accounts with documented ownership, rotation of
+secrets, and compensating monitoring.
+
+6.3 Secure Configuration and Hardening
+
+Systems must comply with approved hardening standards (e.g., CIS-based baselines or internal
+equivalents). Unnecessary services, default credentials, and unused open ports must be
+removed or disabled. Administrative interfaces must not be exposed to the internet unless
+explicitly approved with additional protections.
+
+6.4 Vulnerability and Patch Management
+
+Security patches must be applied based on risk-based timelines. Critical vulnerabilities
+with active exploitation indicators require accelerated remediation or compensating
+controls. Exceptions must be documented, approved, time-bound, and reviewed.
+
+6.5 Cryptography and Key Management
+
+Sensitive data must be protected in transit using strong, modern encryption. Sensitive data
+at rest must be encrypted where feasible. Cryptographic keys must be managed using approved
+key management services, with access restrictions, rotation, backup, and logging.
+
+6.6 Logging, Monitoring, and Detection
+
+Security-relevant events must be logged and retained according to retention standards. Logs
+must be protected from tampering and forwarded to centralized monitoring where feasible.
+Alerting must exist for high-risk events such as privileged access, authentication
+anomalies, and changes to security configurations.
+
+6.7 Secure Software Delivery
+
+All software delivery pipelines must include security controls, including code reviews,
+dependency management, and security testing appropriate to the risk of the application.
+High-risk changes require additional approvals and evidence.
+
+6.8 Third-Party Security
+
+Third parties must be assessed prior to onboarding and monitored during the contract.
+Contracts must include security requirements such as breach notification timelines, audit
+rights, and data handling obligations.
+
+7. Acceptable Use and User Obligations
+
+Users must:
+
+- Use CBG resources for approved business purposes.
+
+- Protect credentials and never share passwords or MFA tokens.
+
+- Lock screens when unattended and use approved devices for sensitive work.
+
+- Store data only in approved repositories and follow data handling rules.
+
+- Report suspected phishing, malware, data loss, or security incidents immediately to the Service Desk or SOC.
+
+8. Risk Acceptance, Exceptions, and Compensating Controls
+
+Deviations from this policy require documented risk acceptance. The request must include
+scope, justification, impact analysis, proposed compensating controls, and an expiry date.
+Approval levels depend on the classification and business impact, and may require sign-off
+by the Service Owner, ICT Risk Management, and the CISO. Exceptions must be tracked and
+reviewed at least quarterly.
+
+9. Compliance, Monitoring, and Audit
+
+Compliance with this policy is mandatory. Compliance is monitored via control testing,
+vulnerability scanning, configuration compliance checks, log reviews, audit assessments, and
+supplier assurance activities. Non-compliance may result in remediation plans, restriction
+of access, disciplinary action, and/or supplier contract enforcement. Material deficiencies
+must be escalated to executive management and risk committees.
+
+10. References
+
+- Data Classification and Handling Policy (CBG-DATA-POL-002)
+
+- Vulnerability Management Procedure (CBG-VULN-PROC-004)
+
+- Access Management Procedure (CBG-IAM-PROC-006)
+
+- Secure Software Development Policy (CBG-SSDLC-POL-007)
+
+- Security Incident Handling Standard (CBG-SOC-STD-005)

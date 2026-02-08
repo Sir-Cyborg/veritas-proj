@@ -1,2 +1,0 @@
-4.2 Integrity
-Information must be protected against unauthorized modification or destruction.

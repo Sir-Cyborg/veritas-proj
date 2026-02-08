@@ -1,0 +1,6 @@
+6.3 Secure Configuration and Hardening
+
+Systems must comply with approved hardening standards (e.g., CIS-based baselines or internal
+equivalents). Unnecessary services, default credentials, and unused open ports must be
+removed or disabled. Administrative interfaces must not be exposed to the internet unless
+explicitly approved with additional protections.

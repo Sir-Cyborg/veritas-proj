@@ -1,0 +1,5 @@
+10. Exceptions and Non-Compliance
+
+Exceptions require Data Owner approval and Information Security review for
+Confidential/Restricted data. Non-compliance may result in access restrictions, remediation
+plans, disciplinary action, and supplier enforcement actions.

@@ -1,0 +1,4 @@
+5.2 Backup Frequency
+
+Backup frequency must be sufficient to meet RPO. For transactional systems, this may require
+point-in-time recovery mechanisms, log shipping, or continuous replication.

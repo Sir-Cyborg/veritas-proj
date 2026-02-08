@@ -1,0 +1,9 @@
+1. Introduction
+
+Operational resilience is essential for Corporate Banking Group (CBG). Backup and Disaster
+Recovery (DR) capabilities enable the restoration of data and services after accidental
+deletion, corruption, ransomware events, infrastructure failures, or site-level outages.
+
+This procedure defines minimum requirements and steps for backup creation, validation,
+retention, recovery execution, and disaster recovery testing for ICT services. It ensures
+that recovery objectives are defined, achievable, and evidenced.

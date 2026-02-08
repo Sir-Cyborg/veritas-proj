@@ -1,0 +1,11 @@
+6.1 Access Control
+
+Public: no access restrictions beyond integrity controls.
+
+Internal: access limited to CBG users with a business need.
+
+Confidential: role-based access; least privilege; MFA required for remote access; access
+reviews at least quarterly for critical datasets.
+
+Restricted: strict role-based access; MFA required for all access; privileged access must
+use PAM; enhanced monitoring and logging.

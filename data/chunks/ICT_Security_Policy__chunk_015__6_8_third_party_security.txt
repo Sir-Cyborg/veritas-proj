@@ -1,0 +1,5 @@
+6.8 Third-Party Security
+
+Third parties must be assessed prior to onboarding and monitored during the contract.
+Contracts must include security requirements such as breach notification timelines, audit
+rights, and data handling obligations.

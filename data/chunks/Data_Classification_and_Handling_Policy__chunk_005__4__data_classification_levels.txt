@@ -1,0 +1,4 @@
+4. Data Classification Levels
+
+CBG uses the following classification levels. When in doubt, classify at the higher level
+until confirmed by the Data Owner.

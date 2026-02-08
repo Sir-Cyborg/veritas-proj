@@ -1,0 +1,14 @@
+2. Scope
+
+This procedure applies to ICT-related third parties, including:
+
+- SaaS/IaaS/PaaS cloud providers and managed service providers.
+
+- Vendors with remote access to CBG systems.
+
+- Software suppliers (including open source support vendors) where CBG depends on vendor patches/support.
+
+- Outsourced development, operations, or security services.
+
+The procedure applies to new engagements, renewals, and material changes to existing
+contracts.

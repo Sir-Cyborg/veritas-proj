@@ -1,0 +1,4 @@
+4.2 Operations Teams (L2)
+- Conduct deeper diagnosis for infrastructure, platform, and operations issues
+- Coordinate with vendor support for managed services
+- Implement approved remediation steps within defined access and change constraints

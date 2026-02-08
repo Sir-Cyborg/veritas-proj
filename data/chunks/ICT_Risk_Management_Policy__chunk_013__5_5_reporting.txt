@@ -1,0 +1,6 @@
+5.5 Reporting
+
+Management reporting must include: top risks by service/domain, overdue remediation actions,
+risk acceptances and expiries, key KRIs (e.g., patch compliance, critical vulnerabilities,
+major incidents, resilience test results), and concentration risks related to critical
+suppliers.

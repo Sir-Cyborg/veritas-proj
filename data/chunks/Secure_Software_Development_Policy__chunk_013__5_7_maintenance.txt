@@ -1,0 +1,4 @@
+5.7 Maintenance
+
+Teams must address vulnerabilities in code and dependencies within defined SLAs and keep
+supported versions of frameworks and runtimes.

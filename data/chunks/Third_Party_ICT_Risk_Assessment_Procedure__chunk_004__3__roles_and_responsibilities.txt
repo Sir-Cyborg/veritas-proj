@@ -1,0 +1,13 @@
+3. Roles and Responsibilities
+
+- Business Owner: sponsors the engagement, defines service requirements, and owns business impact decisions.
+
+- ICT Service Owner: validates technical integration, architecture, and operational controls.
+
+- TPRM (ICT): coordinates due diligence, risk assessments, and ongoing monitoring; maintains third-party inventory.
+
+- Information Security: performs security assessment and defines security requirements; reviews high-risk findings.
+
+- Procurement and Legal: ensures contracts include required clauses; manages negotiation and supplier obligations.
+
+- Continuity/Resilience Team: assesses resilience, exit planning, and recovery capabilities for critical services.

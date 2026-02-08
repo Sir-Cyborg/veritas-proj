@@ -1,0 +1,16 @@
+5. Incident Logging and Minimum Data Requirements
+All incidents must be recorded in the ITSM tool. Minimum required fields:
+- Unique Incident ID
+- Date/time reported and detection source (user, monitoring, vendor, SOC)
+- Affected service(s) and configuration item(s), where known
+- Description of symptoms and observed errors (include screenshots or logs when possible)
+- Impact statement and affected user groups (e.g., “payment confirmation failing for retail customers”)
+- Urgency statement (time sensitivity, regulatory deadlines, peak hours)
+- Initial categorization (application, network, identity, EUC, third-party, security-related)
+- Assignee group and escalation history
+- Chronology (time-stamped actions, communications, and decisions)
+
+For monitoring-generated incidents, include:
+- Alert name and threshold
+- Runbook link (if applicable)
+- Correlation IDs, traces, and dashboards

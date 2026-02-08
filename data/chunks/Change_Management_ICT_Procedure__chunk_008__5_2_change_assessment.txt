@@ -1,5 +1,0 @@
-5.2 Change Assessment
-The change must be reviewed for:
-- Technical feasibility
-- Security impact
-- Compliance with policies

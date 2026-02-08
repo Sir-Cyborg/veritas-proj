@@ -1,2 +1,0 @@
-3.3 Penetration Testing
-Simulated attacks performed by specialized teams.

@@ -1,0 +1,4 @@
+4.6 Business Stakeholders / Service Owners
+- Provide impact assessment (customer impact, revenue impact, operational impact)
+- Approve business-impacting mitigations (e.g., disabling a feature, throttling traffic)
+- Participate in post-incident review and action follow-up

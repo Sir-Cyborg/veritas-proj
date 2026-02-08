@@ -1,0 +1,4 @@
+4.5 Major Incident Manager (MIM)
+- Leads major incident coordination, including bridge calls, task assignment, timelines
+- Ensures communications cadence and stakeholder alignment
+- Confirms restoration, coordinates closure criteria, and schedules the post-incident review

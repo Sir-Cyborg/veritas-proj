@@ -1,0 +1,2 @@
+3.4 Disaster Recovery: the set of capabilities to restore services after a major disruption
+affecting a primary site or critical infrastructure.

@@ -1,0 +1,15 @@
+6. Backup Implementation Standards
+
+Minimum standards include:
+
+- Encryption in transit and at rest for Confidential/Restricted backups.
+
+- Separation of backup administration from day-to-day system administration where feasible.
+
+- Centralized monitoring of backup job success/failure and capacity.
+
+- Regular verification of restore capability (see Section 8).
+
+For cloud environments, native backup services may be used if they meet security and
+retention requirements. Infrastructure-as-code should be backed up by retaining source
+repositories, configuration state, and deployment artifacts.

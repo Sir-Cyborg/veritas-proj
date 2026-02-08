@@ -1,0 +1,7 @@
+9. Compliance, Monitoring, and Audit
+
+Compliance with this policy is mandatory. Compliance is monitored via control testing,
+vulnerability scanning, configuration compliance checks, log reviews, audit assessments, and
+supplier assurance activities. Non-compliance may result in remediation plans, restriction
+of access, disciplinary action, and/or supplier contract enforcement. Material deficiencies
+must be escalated to executive management and risk committees.

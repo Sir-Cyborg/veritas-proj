@@ -1,0 +1,5 @@
+5.3 Retention
+
+Retention periods must align with regulatory and business requirements. At minimum, backups
+must support restoration for operational recovery scenarios and may be longer for regulatory
+records where applicable.

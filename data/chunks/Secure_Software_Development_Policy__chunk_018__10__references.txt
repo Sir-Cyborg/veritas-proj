@@ -1,0 +1,7 @@
+10. References
+
+- ICT Security Policy (CBG-SEC-POL-001)
+
+- Vulnerability Management Procedure (CBG-VULN-PROC-004)
+
+- Change Management Procedure (CBG-CHG-PROC-002)

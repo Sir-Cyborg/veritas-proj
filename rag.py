@@ -72,7 +72,7 @@ class Augmentor:
     def augment_query(self, question):
         """Augment the question asked to LMM to return query for retriever"""
 
-        prompt = f"""Given the question below, generate ONLY a concise search query 
+        prompt = f"""Given the question below, generate ONLY a search query 
                     to find relevant information in a vector database.
                     Question: {question}"""
         query = self.client.responses.create(model="gpt-4o", input=prompt, conversation=self.conversation_id, store=True)

@@ -1,0 +1,18 @@
+6. Security and Architecture Assessment
+
+Information Security and ICT architecture must assess:
+
+- Authentication and access control model (MFA, SSO, privileged access controls).
+
+- Network integration and segmentation requirements.
+
+- Data protection (encryption in transit/at rest, key management, data segregation).
+
+- Logging, monitoring, and auditability (availability of logs, APIs for integration).
+
+- Vulnerability management and patching practices.
+
+- Secure SDLC maturity (for software providers).
+
+Identified gaps must be documented with remediation commitments and deadlines prior to
+onboarding where feasible.

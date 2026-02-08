@@ -1,0 +1,7 @@
+12. References
+
+- ICT Security Policy (CBG-SEC-POL-001)
+
+- Data Classification and Handling Policy (CBG-DATA-POL-002)
+
+- Security Logging and Monitoring Standard (CBG-LOG-STD-008)

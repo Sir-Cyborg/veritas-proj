@@ -1,0 +1,9 @@
+8.2 Post-Incident Review Triggers
+A post-incident review (PIR) is mandatory for:
+- All P1 incidents
+- P2 incidents with high customer impact or regulatory relevance
+- Any incident with confirmed security implications
+The PIR must capture:
+- Timeline, contributing factors, detection quality, response effectiveness
+- Customer/business impact estimate (where available)
+- Corrective actions and owners with deadlines

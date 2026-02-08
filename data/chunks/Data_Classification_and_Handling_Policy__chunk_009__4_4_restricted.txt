@@ -1,0 +1,5 @@
+4.4 Restricted
+
+Highly sensitive information requiring the strongest protections, including: authentication
+secrets, cryptographic keys, highly sensitive customer identifiers, material non-public
+information (MNPI) where applicable, and core banking transaction integrity data.

@@ -1,0 +1,192 @@
+ACCESS MANAGEMENT PROCEDURE
+Corporate Banking Group (CBG)
+Identity & Access Management
+
+Document Classification: Internal
+Owner: Head of Identity & Access Management (IAM)
+Approved by: CISO; CIO, Corporate Banking Group
+Effective Date: 2026-01-18
+Review Cycle: Annual
+Version: 1.0
+
+Document Control
+- 1.0 (2026-01-18): Initial release defining identity lifecycle, access requests, approvals, and privileged access controls.
+
+1. Introduction
+
+Access Management ensures that only authorized individuals and services can access CBG
+systems and data, and that such access is appropriate to their job functions. Strong access
+controls reduce the likelihood of unauthorized transactions, data breaches, and operational
+errors.
+
+This procedure defines end-to-end processes for requesting, approving, granting, reviewing,
+and revoking access to ICT resources within Corporate Banking Group (CBG), including
+privileged access and service accounts.
+
+2. Scope
+
+This procedure applies to:
+
+- User accounts (employees, contractors, third parties) and their access to applications, databases, infrastructure, and cloud services.
+
+- Privileged accounts (administrators, root, break-glass access) and privileged activities.
+
+- Service accounts and machine identities used by applications, integrations, and automation.
+
+- Access to sensitive datasets and regulated systems.
+
+Physical access controls and building badges are managed by Facilities Security and are
+outside the scope of this procedure.
+
+3. Definitions
+
+3.1 Identity: a unique representation of a person or service in an authentication system.
+
+3.2 Privileged Access: access that allows administrative control, elevated permissions, or
+the ability to bypass standard controls.
+
+3.3 Least Privilege: granting only the minimum access required to perform authorized tasks.
+
+3.4 Segregation of Duties (SoD): splitting critical tasks across roles to prevent fraud or
+errors.
+
+4. Roles and Responsibilities
+
+- Requestor: initiates an access request and provides justification and required scope.
+
+- Line Manager: validates business need and approves request for their direct reports or contractors.
+
+- System/Service Owner: approves access to their system and validates role alignment and SoD requirements.
+
+- IAM Team: configures access, ensures policy compliance, and maintains identity lifecycle processes.
+
+- SOC: monitors privileged activity and investigates anomalies.
+
+- ICT Risk Management: reviews exceptions, SoD conflicts, and high-risk access patterns.
+
+5. Identity Lifecycle Management
+
+5.1 Joiner Process
+
+1) HR triggers identity creation upon onboarding approval.
+
+2) IAM provisions a unique user identity, assigns baseline access (email, collaboration tools), and enforces MFA enrollment.
+
+3) Additional access requires a formal request per Section 6.
+
+5.2 Mover Process
+
+1) Role changes must trigger access review and adjustment within 5 business days.
+
+2) Access not required for the new role must be removed promptly.
+
+5.3 Leaver Process
+
+1) HR notifies termination date/time. For immediate terminations, notification must be immediate.
+
+2) IAM disables accounts and remote access, revokes tokens, and removes access to critical systems within the defined timelines.
+
+3) Privileged credentials and shared secrets known to the leaver must be rotated as required.
+
+5.4 Contractor and Third-Party Accounts
+
+All non-employee accounts must have an internal sponsor, an expiry date, and periodic
+revalidation.
+
+6. Access Request and Approval Workflow
+
+All non-baseline access must be requested via the approved access request system and
+include:
+
+- System name and environment (prod/non-prod).
+
+- Access level/role requested (read, write, admin) and justification.
+
+- Data classification of the information to be accessed.
+
+- Start date and end date (mandatory for temporary access).
+
+Approval rules:
+
+1) Line Manager approval is required for user access.
+
+2) System/Service Owner approval is required for access to their systems.
+
+3) Additional approvals are required for sensitive systems (e.g., payments, customer data) and privileged access.
+
+4) IAM validates SoD conflicts and risk controls before provisioning.
+
+7. Privileged Access Management (PAM)
+
+Privileged access must be controlled through an approved Privileged Access Management
+solution where feasible.
+
+Mandatory requirements:
+
+- Separate privileged accounts: privileged access must not be performed using standard user accounts.
+
+- MFA for all privileged access; step-up authentication for high-risk actions.
+
+- Time-bound elevation (just-in-time access) whenever supported.
+
+- Session recording or command logging for administrative sessions on critical systems.
+
+- Break-glass access must be strictly limited, monitored, and reviewed after use.
+
+Privileged access requests must include a task reference (change ticket, incident ticket)
+and must be approved by the System Owner.
+
+8. Service Accounts and Machine Identities
+
+Service accounts must be created only when necessary and must have:
+
+- Documented ownership and purpose.
+
+- Minimal permissions scoped to the service function.
+
+- Credentials stored in approved secret management solutions.
+
+- Rotation policy and monitoring for anomalous usage.
+
+Service accounts must not be used for interactive logins except for approved maintenance
+scenarios.
+
+9. Access Reviews and Recertification
+
+Access to critical systems and sensitive data must be reviewed at least quarterly. Minimum
+review steps:
+
+1) System Owner receives a list of current entitlements and validates each user and access level.
+
+2) Access without clear business justification must be removed.
+
+3) SoD conflicts must be documented and remediated or formally accepted with compensating controls.
+
+4) Review completion evidence must be retained for audit.
+
+10. Revocation and Emergency Removal
+
+Access must be revoked promptly when:
+
+- Employment or contract ends.
+
+- Business need ends (project completed, role changed).
+
+- Policy violations occur (e.g., credential sharing) or compromise is suspected.
+
+For suspected compromise, SOC may request immediate access removal and credential resets.
+Emergency removals must be documented and communicated to relevant owners.
+
+11. Records and Retention
+
+Access requests, approvals, provisioning logs, and access reviews must be retained according
+to retention policies. Privileged access logs and session recordings must be retained for
+the duration required by security monitoring and regulatory needs.
+
+12. References
+
+- ICT Security Policy (CBG-SEC-POL-001)
+
+- Data Classification and Handling Policy (CBG-DATA-POL-002)
+
+- Security Logging and Monitoring Standard (CBG-LOG-STD-008)

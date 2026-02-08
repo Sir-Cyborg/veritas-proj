@@ -1,0 +1,7 @@
+6.2 Severity / Priority Definitions (Standard)
+- P1 (Critical): Major Incident. Severe business impact, widespread customer impact, or critical service unavailable.
+- P2 (High): Significant impact but not fully critical; multiple teams may be required.
+- P3 (Medium): Moderate impact or localized degradation; standard escalation.
+- P4 (Low): Minor issue; informational; minimal business impact.
+
+Note: If any security implications exist, the SOC must be notified immediately regardless of P-level.

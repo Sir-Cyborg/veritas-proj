@@ -1,0 +1,9 @@
+2. Scope and Applicability
+This procedure applies to:
+- All CBG employees and contractors who detect, report, diagnose, resolve, or communicate ICT incidents
+- The Service Desk (L1), Operations (L2), Engineering and Product Teams (L3), Cybersecurity Operations, and Vendor Support
+- Incidents occurring in production and pre-production environments if they affect production-like services or regulated processing
+
+This procedure does not replace:
+- Major Incident Communication Plan (referenced in Section 9 for integration)
+- Crisis Management and Business Continuity procedures (invoked for severe, prolonged, or multi-system outages)

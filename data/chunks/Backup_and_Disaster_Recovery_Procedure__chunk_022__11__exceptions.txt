@@ -1,0 +1,5 @@
+11. Exceptions
+
+Exceptions to backup frequency, retention, or testing requirements require documented risk
+acceptance and approval by the Service Owner and ICT Risk Management. For critical services,
+CRO approval may be required depending on impact.

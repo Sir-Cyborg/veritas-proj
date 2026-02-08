@@ -1,2 +1,13 @@
 ICT SECURITY POLICY
-Corporate Banking Group
+Corporate Banking Group (CBG)
+Information Security Office
+
+Document Classification: Internal
+Owner: Chief Information Security Officer (CISO)
+Approved by: CIO, Corporate Banking Group; Chief Risk Officer (CRO)
+Effective Date: 2026-01-10
+Review Cycle: Annual
+Version: 1.0
+
+Document Control
+- 1.0 (2026-01-10): Initial release consolidating baseline security requirements across on-prem and cloud.
