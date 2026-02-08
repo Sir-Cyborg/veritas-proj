@@ -86,8 +86,7 @@ class Judger:
         formatted_answers = "\n\n".join(
         f"{name}:\n{answer}" for name, answer in answers
     )
-        prompt = f"""You are a banking ICT and Security assistant.
-                    You are a senior banking ICT and security reviewer.
+        prompt = f"""You are a senior banking ICT and security reviewer.
 
                         Question:
                         {question}
