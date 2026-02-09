@@ -44,7 +44,7 @@ class Collector:
 
         if not chunks_dir.exists():
             raise FileNotFoundError(f"Chunks directory not found: {chunks_dir}")
-
+        chunk_id_collection=0
         for chunk_path in sorted(chunks_dir.glob("*.txt")):
 
             # -------------------------
@@ -92,7 +92,7 @@ class Collector:
             # 4. Add to collection
             # -------------------------
             collection.add(
-                ids=[chunk_id],
+                ids=[str(chunk_id_collection)],
                 documents=[document_text],
                 metadatas=[{
                     "original_file": original_file,
@@ -102,8 +102,10 @@ class Collector:
                     "section_title": section_title,
                 }]
             )
+            chunk_id_collection+=1
 
-            print(f"Added chunk: {chunk_id} ({filename})")
+            print(f"Added chunk: {chunk_id} ({filename}). ID on collection: {chunk_id_collection}")
+
 
     def verify_collection(self, collection):
         """
@@ -111,6 +113,7 @@ class Collector:
         and metadatas were stored.
         """
         count = collection.count()
+        print(f"Collection contains {count} items.")
         if count < 1:
             raise ValueError("Collection is empty: no items were added.")
 
