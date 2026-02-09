@@ -1,3 +1,5 @@
 .env
+.gitignore
 venv/
 __pycache__/
+local_visualization.ipynb
