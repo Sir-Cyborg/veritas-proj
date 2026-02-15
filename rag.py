@@ -18,7 +18,7 @@ class Retriever:
             embedding_function=embedder
         )
 
-    def retrieve(self, query, k=3):
+    def retrieve(self, query, k=7):
         results = self.collection.query(
             query_texts=[query],
             n_results=k
@@ -62,11 +62,14 @@ class Augmentor:
 
     def augment(self, question, context):
         prompt = f"""{self.role_prompt}.
-                    Answer using ONLY the context below.
+                    Answer using also the context below. Be concise.
                     Context: {context}
-                    Question: {question}"""
+                    Question: {question}
+                    Output in this format:
+                    ***Answer***: <your BRIEF answer>
+                    ***Used Model's Internal Knowledge***: <YES if you used internal knowledge rather that the provided but yet non relevant source, else NO"""
         
-        response = self.client.responses.create(model="gpt-4o", input=prompt, conversation=self.conversation_id, store=True)
+        response = self.client.responses.create(model="gpt-4.1-nano", input=prompt)
         return response.output_text
     
     def augment_query(self, question):
@@ -75,7 +78,7 @@ class Augmentor:
         prompt = f"""Given the question below, generate ONLY a search query 
                     to find relevant information in a vector database.
                     Question: {question}"""
-        query = self.client.responses.create(model="gpt-4o", input=prompt, conversation=self.conversation_id, store=True)
+        query = self.client.responses.create(model="gpt-4.1-nano", input=prompt)
         return query.output_text
     
 class Judger:
@@ -101,9 +104,14 @@ class Judger:
                         - Compare the answers
                         - Resolve contradictions
                         - Produce a single, accurate, well-justified final answer
-                        - Use ONLY the provided context"""
+                        - Be concise. Say creally what is the final answer providing only the name of the source file
+                        - Provide the answer with the following format:
+                        ***Final Answer***: <your BRIEF final answer here>
+                        ***Context Reference***: <the source file name from which the answer is derived, e.g. "policy_procedures_v2.pdf">
+                        ***Used Model's Internal Knowledge***: <YES if model has used internal knowledge rather that the provided yet non relevant source, else NO>
+                        """
         
-        response = self.client.responses.create(model="gpt-4o", input=prompt, store=True)
+        response = self.client.responses.create(model="gpt-4.1-nano", input=prompt)
         return response.output_text
     
 def run_court(question, context, augmentors):
@@ -121,8 +129,8 @@ def chat():
     query_augmentor = Augmentor(type="openai")
     augmentors = [
         Augmentor(type="openai", role_prompt="You are a conservative banking compliance expert."),
-        Augmentor("openai", role_prompt="You are a pragmatic ICT operations engineer."),
-        Augmentor("openai", role_prompt="You are a critical security auditor.")
+        Augmentor(type="openai", role_prompt="You are a pragmatic ICT operations engineer."),
+        Augmentor(type="openai", role_prompt="You are a critical security auditor.")
     ]
 
     judger = Judger(augmentors[0].client)
@@ -139,11 +147,8 @@ def chat():
         verdict = judger.judge(question=question, context=context, answers=answers)
 
         print("\nFinal Answer:\n", verdict)
-        print("\nContext:\n", context)
-        print("\nAnswers:\n", answers)
 
-        print("\n" + "="*50 + "\n")
-    
+        print("\n" + "="*70 + "\n\n\n\n\n")
 
 if __name__ == "__main__":
     chat()
