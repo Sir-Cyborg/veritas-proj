@@ -7,7 +7,7 @@ import os
 if __name__ == "__main__":
     
     path_in = "data/test_sets.xlsx"
-    sheet = "poison"
+    sheet = "poisoned"
     df_in = pd.read_excel(path_in, sheet_name=sheet, engine="openpyxl")
     questions = df_in["question"].tolist()
     
@@ -21,10 +21,10 @@ if __name__ == "__main__":
     rows = []
     for _, r in df_in.iterrows():
         question = r["question"]
-        context = r.get("poisoned context", "")
+        context = r.get("poisoned_context", "")
         answers = run_court(question=question, context=context, augmentors=augmentors)
         verdict = judger.judge(question=question, context=context, answers=answers)
-        rows.append({"question": question, "verdict": verdict, "context": context, "poison_type": r.get("poison type", None), "answers_of_council": answers})
+        rows.append({"question": question, "verdict": verdict, "context": context, "poison_type": r.get("poison_type", None), "answers_of_council": answers})
     
     df_out = pd.DataFrame(rows)
     path = "data/test_sets.xlsx"
